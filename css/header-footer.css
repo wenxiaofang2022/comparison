@@ -1,0 +1,68 @@
+/* header */
+/* border:#000 1px solid; (used for checking header)*/
+header { position:fixed; top:0; left:0; height:66px; width:100%; background:inherit; padding:0px 18px 0px 18px;  box-sizing:border-box; z-index:12; transition:transform 0.5s; }
+header.v_scroll { transform:translateY(-100%); }
+
+/* c__header */
+.c__header { background:inherit; width:100%; height:100%; display:flex; align-items:center; position:relative; }
+.c__header .s_logo { position:absolute; left:0px; z-index:12; top:17px; margin-top:4px; width:76px; }
+.c__header input[name='s_menu'] { display:none; }
+.c__header label[for='s_menu']  { display:block; margin-left: auto; height:14px; width:38px; position:relative; z-index:12; margin-top:0; cursor:pointer; }
+.c__header input[name='s_menu']:checked  ~ label[for='s_menu'] { margin-top:4px; height:28px; width:28px; }
+.c__header nav label[for='s_menu'] { position:absolute; top:24px; right:18px; height:28px; width:28px; opacity:0; transition:opacity 0.2s cubic-bezier(0.49, 0.13, 0.61, 1); }
+
+.c__header nav { position:fixed; top:0; left:0; transform:translateX(-100%); transition: transform 0.3s cubic-bezier(0.49, 0.13, 0.61, 1); background:inherit; width:100%; height:100%; z-index:11; }
+.c__header input[name='s_menu']:checked ~ nav {  transform:translateX(0%); }
+.c__header .s_close { display:none; }
+.c__header input[name='s_menu']:checked ~ label[for='s_menu'] .s_close{ display:block; }
+.c__header input[name='s_menu']:checked ~ label[for='s_menu'] .s_open{ display:none; }
+
+.c__header ul {margin-top:117px; }
+.c__header li { font-family:'Dosis'; font-weight:600; text-transform:uppercase; font-size:1.125rem; line-height:2.223em; text-align:center; margin-bottom:-3px; }
+
+/* hover */
+.no-touchevents .c__header li a, .no-touchevents footer .c__contactaddress p a, .no-touchevents footer .c__copyright a { transition:opacity 0.5s; }
+.no-touchevents .c__header li a:hover, .no-touchevents footer .c__contactaddress p a:hover, .no-touchevents footer .c__copyright a:hover { opacity:0.8; }
+.no-touchevents .u__btncta a, .no-touchevents .u__btncta input[type="submit"] { transition:background 0.5s; }
+.no-touchevents .u__btncta a:hover, .no-touchevents .u__btncta input[type="submit"]:hover { background:#C96952; }
+.no-touchevents .u__btncta a.v_disabled:hover, .no-touchevents .u__btncta input[type="submit"].v_disabled:hover { transition:none; background:#BEBEBE; }
+.no-touchevents .u__btncta span { transition:margin 0.5s; }
+.no-touchevents .u__btncta a:hover span { margin-left:17px; }
+.no-touchevents .u__btncta a.v_disabled:hover span { transition:none; margin-left:7px; }
+.no-touchevents .u__btncta.v_front a:hover span { margin-right:17px; margin-left:0; }
+.no-touchevents footer .u__btncta.v_outline a, .no-touchevents footer .u__btncta.v_outline input[type="submit"] { transition:all 0.5s; }
+.no-touchevents .u__btncta.v_outline2 a:hover, .no-touchevents .u__btncta.v_outline2 input[type="submit"]:hover { background:#B96955; color:#DDD5CC; }
+.no-touchevents footer .u__btncta.v_outline a:hover, .no-touchevents footer .u__btncta.v_outline input[type="submit"]:hover { background:#DDD5CC; color:#C96952; }
+.no-touchevents footer #mc_embed_signup .u__btncta input[type="submit"]:hover { padding-right:86px; }
+.no-touchevents .c__usp .s_image.v_hospitalitytoplanding figure a:after, .no-touchevents .c__usp .s_image.v_hospitalitymiddlelanding figure a:after, .no-touchevents .c__usp .s_image.v_hospitalitybottomlanding figure a:after { transition:transform 0.5s; }
+.no-touchevents .c__usp .s_image.v_hospitalitytoplanding figure a:hover:after, .no-touchevents .c__usp .s_image.v_hospitalitymiddlelanding figure a:hover:after, .no-touchevents .c__usp .s_image.v_hospitalitybottomlanding figure a:hover:after { transform:translate(-50%, 50%) scale(1.2); }
+
+.no-touchevents .c__lightbox .s_close { transition:transform 0.5s; }
+.no-touchevents .c__lightbox .s_close:hover { transform:translate(-50%, 0) scale(1.2); }
+
+.no-touchevents .u__arrow { transition:transform 0.5s; }
+.no-touchevents .u__arrow:hover { transform:translateY(15px); }
+.no-touchevents .c__healthcare .u__arrow:hover { transform:translate(-50%, 15px); }
+
+/* proper */
+/* u__form */
+.u__form label { display:block; font-size:0.875rem; line-height:1.429em; }
+.u__form input[type="text"] { font-size:0.875rem; line-height:1.429em; color:#B96955; max-width:263px; margin-left:auto; margin-right:auto; border-bottom:1px solid #FFF; padding-bottom:17px; text-align:center; margin-top:27px; }
+.u__form fieldset { margin-top:-5px; padding-top:50px; }
+.u__form .s_group { display:flex; flex-wrap:wrap; justify-content:center; margin-top:32px; margin-bottom:-16px; }
+.u__form .s_group > div { margin-left:8px; margin-right:8px; margin-bottom:16px; }
+.u__form .u__formradio input { display:none; }
+.u__form .u__formradio label { color:#AE6D5A; width:118px; border:1px solid #AE6D5A; border-radius:60px; padding:16px 0; cursor:pointer; }
+.u__form .u__formradio input:checked + label { color:#DDD5CC; background:#AE6D5A; }
+.u__form .u__formcheckboxpill input { display:none; }
+.u__form .u__formcheckboxpill label { position:relative; text-align:left; box-sizing:border-box; padding-right:69px; cursor:pointer; }
+.u__form .u__formcheckboxpill label:before { content:''; display:block; width:34px; height:18px; border-radius:60px; border:1px solid #363434; position:absolute; top:50%; right:0; transform:translateY(-50%); }
+.u__form .u__formcheckboxpill input:checked + label { font-family:'Roobert SemiBold'; }
+.u__form .u__formcheckboxpill input:checked + label:before { border:none; background:#EE907B; }
+.u__form .u__formcheckboxpill + .u__formcheckboxpill { margin-top:22px; }
+
+.u__form .u__formradiopill input { display:none; }
+.u__form .u__formradiopill label { cursor:pointer; position:relative; box-sizing:border-box; padding-left:40px; text-align:left; }
+.u__form .u__formradiopill label { position:relative; text-align:left; box-sizing:border-box; padding-right:69px; cursor:pointer; }
+.u__form .u__formradiopill label:before { content:''; display:block; width:34px; height:18px; border-radius:60px; border:1px solid #363434; position:absolute; top:50%; left:0; transform:translateY(-50%); }
+.u__form .u__formradiopill input:checked + label:before { border:none; background:#EE907B; }

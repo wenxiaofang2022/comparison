@@ -736,6 +736,7 @@ main .c__contents .u__sect {
     position: relative;
     width: 100%;
     overflow-x: hidden;
+    padding: 0px;
 }
 main .c__contents .u__sect .u__content {
     position: relative;
@@ -1017,15 +1018,15 @@ main .c__contents .c__futurehealth .u__content .u__shapelinear.v_shape {
     top: 126px;
     left: -36px;
 }
-main .c__contents .c__specialist {
+main .c__contents .c__specialists {
     background: #c2b7ae;
     margin-top: -131px;
     z-index: 9;
 }
-main .c__contents .c__specialist .u__content .s_programmesdiagram {
+main .c__contents .c__specialists .u__content .s_programmesdiagram {
     margin-top: 34px;
 }
-main .c__contents .c__specialist .u__content .u__shapelinear.v_shape {
+main .c__contents .c__specialists .u__content .u__shapelinear.v_shape {
     top: 250px;
     left: auto;
     right: -10%;
@@ -1068,34 +1069,34 @@ main .c__contents .c__advancing .u__content .u__shapelinear.v_shape:nth-of-type(
     right: 50%;
     top: 650px;
 }
-main .c__contents .c__healthcare {
+main .c__contents .c__healthcares {
     background: #ddd5cc;
     z-index: 8;
 }
-main .c__contents .c__healthcare .u__content {
+main .c__contents .c__healthcares .u__content {
     padding-top: 277px;
     padding-bottom: 765px;
 }
-main .c__contents .c__healthcare .u__content .s_title {
+main .c__contents .c__healthcares .u__content .s_title {
     margin-top: 0;
 }
-main .c__contents .c__healthcare .u__content .s_absimg {
+main .c__contents .c__healthcares .u__content .s_absimg {
     position: absolute;
     z-index: 1;
 }
-main .c__contents .c__healthcare .u__content .s_absimg figure {
+main .c__contents .c__healthcares .u__content .s_absimg figure {
     width: 280px;
     height: 153px;
     position: relative;
 }
-main .c__contents .c__healthcare .u__content .s_absimg figure a {
+main .c__contents .c__healthcares .u__content .s_absimg figure a {
     width: 280px;
     height: 140px;
     border-radius: 70px;
     overflow: hidden;
     display: block;
 }
-main .c__contents .c__healthcare .u__content .s_absimg figure span {
+main .c__contents .c__healthcares .u__content .s_absimg figure span {
     position: absolute;
     width: 26px;
     height: 26px;
@@ -1112,57 +1113,57 @@ main .c__contents .c__healthcare .u__content .s_absimg figure span {
     line-height: 26px;
     cursor: pointer;
 }
-main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(4) {
+main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(4) {
     right: 20%;
     top: 0;
 }
-main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(5) {
+main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(5) {
     left: auto;
     right: -16%;
     top: 110px;
 }
-main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(6) {
+main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(6) {
     left: -20%;
     top: 628px;
 }
-main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(7) {
+main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(7) {
     left: auto;
     right: 14px;
     top: 628px;
 }
-main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(7) figure {
+main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(7) figure {
     width: 140px;
     height: 293px;
 }
-main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(7) figure a {
+main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(7) figure a {
     width: 140px;
     height: 280px;
 }
-main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(8) {
+main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(8) {
     left: -20%;
     top: 793px;
 }
-main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(9) {
+main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(9) {
     left: 50%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     top: 895px;
 }
-main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(9) figure {
+main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(9) figure {
     width: 140px;
     height: 293px;
 }
-main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(9) figure a {
+main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(9) figure a {
     width: 140px;
     height: 280px;
 }
-main .c__contents .c__healthcare .u__content .s_detail {
+main .c__contents .c__healthcares .u__content .s_detail {
     width: 100%;
     padding: 0 42px;
     margin-top: 40px;
 }
-main .c__contents .c__healthcare .u__content .u__shapelinear.v_shape:nth-of-type(1) {
+main .c__contents .c__healthcares .u__content .u__shapelinear.v_shape:nth-of-type(1) {
     width: 1006px;
     height: 399px;
     border-radius: 200px;
@@ -1170,10 +1171,10 @@ main .c__contents .c__healthcare .u__content .u__shapelinear.v_shape:nth-of-type
     top: 28px;
     right: 8px;
 }
-main .c__contents .c__healthcare .u__content .u__shapelinear.v_shape:nth-of-type(2) {
+main .c__contents .c__healthcares .u__content .u__shapelinear.v_shape:nth-of-type(2) {
     display: none;
 }
-main .c__contents .c__healthcare .u__content .u__shapelinear.v_shape:nth-of-type(3) {
+main .c__contents .c__healthcares .u__content .u__shapelinear.v_shape:nth-of-type(3) {
     width: 1052px;
     height: 418px;
     border-radius: 209px;
@@ -1493,7 +1494,7 @@ main.p__subpages .c__contents .c__subpageintro .s_toptitle {
     text-align: center;
     margin-bottom: 26px;
     /* font-family: "Roobert SemiBold"; */
-    font-family: "Dosis SemiBold";
+    font-family: "Dosis";
     font-weight: 600;
 }
 main.p__subpages .c__contents .c__subpageintro .s_line {
@@ -2386,7 +2387,7 @@ main.p__subpages .c__contents .c__subpageintro .s_servicelist .s_serviceitem .s_
         top: 190px;
         left: 0;
     }
-    main .c__contents .c__specialist .u__content .u__shapelinear.v_shape {
+    main .c__contents .c__specialists .u__content .u__shapelinear.v_shape {
         top: 280px;
         width: 1000px;
         height: 600px;
@@ -2428,32 +2429,32 @@ main.p__subpages .c__contents .c__subpageintro .s_servicelist .s_serviceitem .s_
         right: 50%;
         top: 540px;
     }
-    main .c__contents .c__healthcare .u__content {
+    main .c__contents .c__healthcares .u__content {
         padding-top: 250px;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(5) {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(5) {
         right: -6%;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(6) {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(6) {
         left: -10%;
         top: 578px;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(7) {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(7) {
         right: 28px;
         top: 578px;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(8) {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(8) {
         left: -10%;
         top: 743px;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(9) {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(9) {
         top: 855px;
     }
-    main .c__contents .c__healthcare .u__content .s_detail {
+    main .c__contents .c__healthcares .u__content .s_detail {
         width: 100%;
         padding: 0 80px;
     }
-    main .c__contents .c__healthcare .u__content .u__shapelinear.v_shape:nth-of-type(1) {
+    main .c__contents .c__healthcares .u__content .u__shapelinear.v_shape:nth-of-type(1) {
         width: 1006px;
         height: 399px;
         border-radius: 200px;
@@ -2461,10 +2462,10 @@ main.p__subpages .c__contents .c__subpageintro .s_servicelist .s_serviceitem .s_
         top: 28px;
         right: 8px;
     }
-    main .c__contents .c__healthcare .u__content .u__shapelinear.v_shape:nth-of-type(2) {
+    main .c__contents .c__healthcares .u__content .u__shapelinear.v_shape:nth-of-type(2) {
         display: none;
     }
-    main .c__contents .c__healthcare .u__content .u__shapelinear.v_shape:nth-of-type(3) {
+    main .c__contents .c__healthcares .u__content .u__shapelinear.v_shape:nth-of-type(3) {
         top: 790px;
         right: -10%;
     }
@@ -2568,23 +2569,23 @@ main.p__subpages .c__contents .c__subpageintro .s_servicelist .s_serviceitem .s_
         border-radius: 234px;
         left: 23px;
     }
-    main .c__contents .c__specialist .u__content .s_title {
+    main .c__contents .c__specialists .u__content .s_title {
         margin-left: 10%;
     }
-    main .c__contents .c__specialist .u__content .s_programbox {
+    main .c__contents .c__specialists .u__content .s_programbox {
         top: 328px;
     }
-    main .c__contents .c__specialist .u__content .s_detail {
+    main .c__contents .c__specialists .u__content .s_detail {
         width: 100%;
     }
-    main .c__contents .c__specialist .u__content .s_programmesdiagram {
+    main .c__contents .c__specialists .u__content .s_programmesdiagram {
         margin-top: 40px;
     }
-    main .c__contents .c__specialist .u__content .s_programmesdiagram div h3 {
+    main .c__contents .c__specialists .u__content .s_programmesdiagram div h3 {
         font-size: 52px;
         line-height: 62px;
     }
-    main .c__contents .c__specialist .u__content .u__shapelinear.v_shape {
+    main .c__contents .c__specialists .u__content .u__shapelinear.v_shape {
         top: 230px;
         height: 830px;
         width: 1813px;
@@ -2631,10 +2632,10 @@ main.p__subpages .c__contents .c__subpageintro .s_servicelist .s_serviceitem .s_
     main .c__contents .c__advancing .u__content .u__shapelinear.v_shape:nth-of-type(2) {
         display: none;
     }
-    main .c__contents .c__healthcare .u__content {
+    main .c__contents .c__healthcares .u__content {
         padding-bottom: 72px;
     }
-    main .c__contents .c__healthcare .u__content .s_detail {
+    main .c__contents .c__healthcares .u__content .s_detail {
         margin-left: 0;
         margin-top: 53px;
         width: 100%;
@@ -2643,25 +2644,25 @@ main.p__subpages .c__contents .c__subpageintro .s_servicelist .s_serviceitem .s_
         position: relative;
         z-index: 1;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg {
+    main .c__contents .c__healthcares .u__content .s_absimg {
         top: 120px;
         right: 0;
         position: absolute;
         z-index: 1;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg figure {
+    main .c__contents .c__healthcares .u__content .s_absimg figure {
         width: 350px;
         height: 192px;
         position: relative;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg figure a {
+    main .c__contents .c__healthcares .u__content .s_absimg figure a {
         width: 350px;
         height: 175px;
         border-radius: 88px;
         overflow: hidden;
         display: block;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg figure span {
+    main .c__contents .c__healthcares .u__content .s_absimg figure span {
         position: absolute;
         width: 34px;
         height: 34px;
@@ -2678,48 +2679,48 @@ main.p__subpages .c__contents .c__subpageintro .s_servicelist .s_serviceitem .s_
         line-height: 34px;
         cursor: pointer;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(4) {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(4) {
         right: 10%;
         top: 63px;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(5) {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(5) {
         right: -15%;
         top: 214px;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(6) {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(6) {
         left: -5%;
         top: 699px;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(7) {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(7) {
         left: auto;
         right: 5%;
         top: 692px;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(7) figure {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(7) figure {
         width: 175px;
         height: 367px;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(7) figure a {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(7) figure a {
         width: 175px;
         height: 350px;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(8) {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(8) {
         left: 10%;
         top: 898px;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(9) {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(9) {
         left: 66%;
         top: 1003px;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(9) figure {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(9) figure {
         width: 175px;
         height: 367px;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(9) figure a {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(9) figure a {
         width: 175px;
         height: 350px;
     }
-    main .c__contents .c__healthcare .u__content .u__shapelinear.v_shape:nth-of-type(1) {
+    main .c__contents .c__healthcares .u__content .u__shapelinear.v_shape:nth-of-type(1) {
         width: 1105px;
         height: 438px;
         border-radius: 219px;
@@ -2727,7 +2728,7 @@ main.p__subpages .c__contents .c__subpageintro .s_servicelist .s_serviceitem .s_
         right: 14%;
         top: 0;
     }
-    main .c__contents .c__healthcare .u__content .u__shapelinear.v_shape:nth-of-type(2) {
+    main .c__contents .c__healthcares .u__content .u__shapelinear.v_shape:nth-of-type(2) {
         width: 1105px;
         height: 438px;
         border-radius: 219px;
@@ -2736,7 +2737,7 @@ main.p__subpages .c__contents .c__subpageintro .s_servicelist .s_serviceitem .s_
         left: 60%;
         display: block;
     }
-    main .c__contents .c__healthcare .u__content .u__shapelinear.v_shape:nth-of-type(3) {
+    main .c__contents .c__healthcares .u__content .u__shapelinear.v_shape:nth-of-type(3) {
         width: 1105px;
         height: 438px;
         border-radius: 219px;
@@ -3430,19 +3431,19 @@ main.p__subpages .c__contents .c__subpageintro .s_servicelist .s_serviceitem .s_
         top: 250px;
         width: 1151px;
     }
-    main .c__contents .c__specialist .u__content .s_title {
+    main .c__contents .c__specialists .u__content .s_title {
         margin-left: 10%;
     }
-    main .c__contents .c__specialist .u__content .s_detail {
+    main .c__contents .c__specialists .u__content .s_detail {
         width: 70%;
     }
-    main .c__contents .c__specialist .u__content .s_programbox {
+    main .c__contents .c__specialists .u__content .s_programbox {
         top: 220px;
     }
-    main .c__contents .c__specialist .u__content .s_programmesdiagram {
+    main .c__contents .c__specialists .u__content .s_programmesdiagram {
         margin-top: 40px;
     }
-    main .c__contents .c__specialist .u__shapelinear.v_shape {
+    main .c__contents .c__specialists .u__shapelinear.v_shape {
         top: 166px;
         height: 804px;
         border-radius: 400px;
@@ -3483,7 +3484,7 @@ main.p__subpages .c__contents .c__subpageintro .s_servicelist .s_serviceitem .s_
         background: -o-linear-gradient(42deg, rgba(0, 0, 0, 0) 10%, rgba(221, 213, 204, 0) 99%, #ca6952 100%);
         background: linear-gradient(48deg, rgba(0, 0, 0, 0) 10%, rgba(221, 213, 204, 0) 99%, #ca6952 100%);
     }
-    main .c__contents .c__healthcare .u__content .s_detail {
+    main .c__contents .c__healthcares .u__content .s_detail {
         margin-left: 0;
         margin-top: 0;
         width: 74%;
@@ -3492,25 +3493,25 @@ main.p__subpages .c__contents .c__subpageintro .s_servicelist .s_serviceitem .s_
         position: relative;
         z-index: 1;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg {
+    main .c__contents .c__healthcares .u__content .s_absimg {
         top: 120px;
         right: 0;
         position: absolute;
         z-index: 1;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg figure {
+    main .c__contents .c__healthcares .u__content .s_absimg figure {
         width: 436px;
         height: 231px;
         position: relative;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg figure a {
+    main .c__contents .c__healthcares .u__content .s_absimg figure a {
         width: 427px;
         height: 214px;
         border-radius: 107px;
         overflow: hidden;
         display: block;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg figure span {
+    main .c__contents .c__healthcares .u__content .s_absimg figure span {
         position: absolute;
         width: 34px;
         height: 34px;
@@ -3527,64 +3528,64 @@ main.p__subpages .c__contents .c__subpageintro .s_servicelist .s_serviceitem .s_
         line-height: 34px;
         cursor: pointer;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(4) {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(4) {
         right: 10%;
         top: 92px;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(5) {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(5) {
         right: -18%;
         top: 266px;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(6) {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(6) {
         left: -15%;
         top: 683px;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(7) {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(7) {
         left: 28%;
         top: 653px;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(7) figure {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(7) figure {
         width: 214px;
         height: 443px;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(7) figure a {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(7) figure a {
         width: 214px;
         height: 426px;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(8) {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(8) {
         left: 18%;
         top: 1138px;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(9) {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(9) {
         right: 5%;
         top: 1006px;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(9) figure {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(9) figure {
         width: 214px;
         height: 443px;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(9) figure a {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(9) figure a {
         width: 214px;
         height: 426px;
     }
-    main .c__contents .c__healthcare .u__content .s_title {
+    main .c__contents .c__healthcares .u__content .s_title {
         margin-top: 136px;
     }
-    main .c__contents .c__healthcare .u__content .s_title span:nth-child(2) {
+    main .c__contents .c__healthcares .u__content .s_title span:nth-child(2) {
         left: 10px;
     }
-    main .c__contents .c__healthcare .u__content .s_title span:nth-child(3) {
+    main .c__contents .c__healthcares .u__content .s_title span:nth-child(3) {
         left: -50px;
         top: 100px;
     }
-    main .c__contents .c__healthcare .u__shapelinear.v_shape:nth-of-type(1) {
+    main .c__contents .c__healthcares .u__shapelinear.v_shape:nth-of-type(1) {
         width: 1105px;
         height: 438px;
         border-radius: 219px;
         left: -50%;
         top: 0;
     }
-    main .c__contents .c__healthcare .u__shapelinear.v_shape:nth-of-type(2) {
+    main .c__contents .c__healthcares .u__shapelinear.v_shape:nth-of-type(2) {
         width: 1105px;
         height: 438px;
         border-radius: 219px;
@@ -3592,7 +3593,7 @@ main.p__subpages .c__contents .c__subpageintro .s_servicelist .s_serviceitem .s_
         right: -82%;
         left: auto;
     }
-    main .c__contents .c__healthcare .u__shapelinear.v_shape:nth-of-type(3) {
+    main .c__contents .c__healthcares .u__shapelinear.v_shape:nth-of-type(3) {
         width: 1105px;
         height: 438px;
         border-radius: 219px;
@@ -4298,19 +4299,19 @@ main.p__subpages .c__contents .c__subpageintro .s_servicelist .s_serviceitem .s_
         top: 250px;
         width: 1151px;
     }
-    main .c__contents .c__specialist .u__content .s_title {
+    main .c__contents .c__specialists .u__content .s_title {
         margin-left: 10%;
     }
-    main .c__contents .c__specialist .u__content .s_detail {
+    main .c__contents .c__specialists .u__content .s_detail {
         width: 70%;
     }
-    main .c__contents .c__specialist .u__content .s_programbox {
+    main .c__contents .c__specialists .u__content .s_programbox {
         top: 220px;
     }
-    main .c__contents .c__specialist .u__content .s_programmesdiagram {
+    main .c__contents .c__specialists .u__content .s_programmesdiagram {
         margin-top: 40px;
     }
-    main .c__contents .c__specialist .u__shapelinear.v_shape {
+    main .c__contents .c__specialists .u__shapelinear.v_shape {
         top: 166px;
         height: 804px;
         border-radius: 400px;
@@ -4351,32 +4352,32 @@ main.p__subpages .c__contents .c__subpageintro .s_servicelist .s_serviceitem .s_
         background: -o-linear-gradient(42deg, rgba(0, 0, 0, 0) 10%, rgba(221, 213, 204, 0) 99%, #ca6952 100%);
         background: linear-gradient(48deg, rgba(0, 0, 0, 0) 10%, rgba(221, 213, 204, 0) 99%, #ca6952 100%);
     }
-    main .c__contents .c__healthcare .u__content .s_detail {
+    main .c__contents .c__healthcares .u__content .s_detail {
         margin-left: 0;
         margin-top: 0;
         width: 68%;
         padding: 0 5%;
         padding-bottom: 918px;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg {
+    main .c__contents .c__healthcares .u__content .s_absimg {
         top: 120px;
         right: 0;
         position: absolute;
         z-index: 1;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg figure {
+    main .c__contents .c__healthcares .u__content .s_absimg figure {
         width: 436px;
         height: 231px;
         position: relative;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg figure a {
+    main .c__contents .c__healthcares .u__content .s_absimg figure a {
         width: 427px;
         height: 214px;
         border-radius: 107px;
         overflow: hidden;
         display: block;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg figure span {
+    main .c__contents .c__healthcares .u__content .s_absimg figure span {
         position: absolute;
         width: 34px;
         height: 34px;
@@ -4393,64 +4394,64 @@ main.p__subpages .c__contents .c__subpageintro .s_servicelist .s_serviceitem .s_
         line-height: 34px;
         cursor: pointer;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(4) {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(4) {
         right: 20%;
         top: 92px;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(5) {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(5) {
         right: -11%;
         top: 266px;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(6) {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(6) {
         left: 0;
         top: 683px;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(7) {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(7) {
         left: 38%;
         top: 653px;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(7) figure {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(7) figure {
         width: 214px;
         height: 443px;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(7) figure a {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(7) figure a {
         width: 214px;
         height: 426px;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(8) {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(8) {
         left: 28%;
         top: 1138px;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(9) {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(9) {
         right: 0;
         top: 1006px;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(9) figure {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(9) figure {
         width: 214px;
         height: 443px;
     }
-    main .c__contents .c__healthcare .u__content .s_absimg:nth-of-type(9) figure a {
+    main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(9) figure a {
         width: 214px;
         height: 426px;
     }
-    main .c__contents .c__healthcare .u__content .s_title {
+    main .c__contents .c__healthcares .u__content .s_title {
         margin-top: 136px;
     }
-    main .c__contents .c__healthcare .u__content .s_title span:nth-child(2) {
+    main .c__contents .c__healthcares .u__content .s_title span:nth-child(2) {
         left: 10px;
     }
-    main .c__contents .c__healthcare .u__content .s_title span:nth-child(3) {
+    main .c__contents .c__healthcares .u__content .s_title span:nth-child(3) {
         left: -50px;
         top: 100px;
     }
-    main .c__contents .c__healthcare .u__shapelinear.v_shape:nth-of-type(1) {
+    main .c__contents .c__healthcares .u__shapelinear.v_shape:nth-of-type(1) {
         width: 1105px;
         height: 438px;
         border-radius: 219px;
         left: -50%;
         top: 0;
     }
-    main .c__contents .c__healthcare .u__shapelinear.v_shape:nth-of-type(2) {
+    main .c__contents .c__healthcares .u__shapelinear.v_shape:nth-of-type(2) {
         width: 1105px;
         height: 438px;
         border-radius: 219px;
@@ -4458,7 +4459,7 @@ main.p__subpages .c__contents .c__subpageintro .s_servicelist .s_serviceitem .s_
         right: -50%;
         left: auto;
     }
-    main .c__contents .c__healthcare .u__shapelinear.v_shape:nth-of-type(3) {
+    main .c__contents .c__healthcares .u__shapelinear.v_shape:nth-of-type(3) {
         width: 1105px;
         height: 438px;
         border-radius: 219px;
@@ -4825,13 +4826,13 @@ main.p__subpages .c__contents .c__subpageintro .s_servicelist .s_serviceitem .s_
         top: 340px;
         width: 1151px;
     }
-    main .c__contents .c__specialist .u__content .s_programbox {
+    main .c__contents .c__specialists .u__content .s_programbox {
         top: 220px;
     }
-    main .c__contents .c__specialist .u__content .s_programmesdiagram {
+    main .c__contents .c__specialists .u__content .s_programmesdiagram {
         margin-top: 40px;
     }
-    main .c__contents .c__specialist .u__shapelinear.v_shape {
+    main .c__contents .c__specialists .u__shapelinear.v_shape {
         top: 166px;
         height: 804px;
         border-radius: 400px;
@@ -4853,14 +4854,14 @@ main.p__subpages .c__contents .c__subpageintro .s_servicelist .s_serviceitem .s_
         background: -o-linear-gradient(42deg, rgba(0, 0, 0, 0) 10%, rgba(221, 213, 204, 0) 99%, #ca6952 100%);
         background: linear-gradient(48deg, rgba(0, 0, 0, 0) 10%, rgba(221, 213, 204, 0) 99%, #ca6952 100%);
     }
-    main .c__contents .c__healthcare .u__shapelinear.v_shape:nth-of-type(1) {
+    main .c__contents .c__healthcares .u__shapelinear.v_shape:nth-of-type(1) {
         width: 1105px;
         height: 438px;
         border-radius: 219px;
         left: 0;
         top: 0;
     }
-    main .c__contents .c__healthcare .u__shapelinear.v_shape:nth-of-type(2) {
+    main .c__contents .c__healthcares .u__shapelinear.v_shape:nth-of-type(2) {
         width: 1105px;
         height: 438px;
         border-radius: 219px;
@@ -4868,7 +4869,7 @@ main.p__subpages .c__contents .c__subpageintro .s_servicelist .s_serviceitem .s_
         right: -20%;
         left: auto;
     }
-    main .c__contents .c__healthcare .u__shapelinear.v_shape:nth-of-type(3) {
+    main .c__contents .c__healthcares .u__shapelinear.v_shape:nth-of-type(3) {
         width: 1105px;
         height: 438px;
         border-radius: 219px;

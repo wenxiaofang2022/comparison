@@ -18,7 +18,21 @@
   <link rel="stylesheet" type="text/css" href="./css/swiper-bundle.min.css">
   <link rel="stylesheet" type="text/css" href="./css/main.css?v=1658834117164" />
   <link rel="stylesheet" type="text/css" href="./css/main2.css?v=1658834117164" />
-
+  <style type="text/css">
+    main.p__subpages .c__contents .c__subpageintro .c__optimise .s_optimiselist .s_optimiseitem .u__btncta{
+      width: auto;
+    }
+    @media only screen and (min-width: 668px) {
+      main.p__subpages .c__contents .c__subpageintro .c__optimise .s_optimiselist .s_optimiseitem .u__btncta a{
+        width: auto;
+      }
+    }
+    @media screen and (min-width: 898px) and (max-width: 1000px){
+      main.p__subpages .c__contents .c__subpageintro .c__optimise .s_optimiselist .s_optimiseitem .s_middlebox.v_longtit{
+        height: 155px;
+      }
+    }
+  </style>
   <script src="./js/vendor/modernizr-custom.js?v=1658834117164" type="text/javascript"></script>
 </head>
 
@@ -75,7 +89,7 @@
                         <h3 class="s_name">Cancer Risk</h3>
                         <p class="s_desc">Early detection allows for early treatment.</p>
                       </div>
-                      <div class="u__btncta">
+                      <div class="u__btncta" target="cancer-risk">
                         <a href="javascript:void(0);">Learn more<span></span></a>
                       </div>
                     </article>
@@ -87,7 +101,7 @@
                         <h3 class="s_name">Cardio Risk</h3>
                         <p class="s_desc">Measure what matters for the powerhouse of your body – the cardiovascular system.</p>
                       </div>
-                      <div class="u__btncta">
+                      <div class="u__btncta" target="cardio-risk">
                         <a href="javascript:void(0);">Learn more<span></span></a>
                       </div>
                     </article>
@@ -99,7 +113,7 @@
                         <h3 class="s_name">Digestive and Gut</h3>
                         <p class="s_desc">Listen to your gut. Understand your digestive health.</p>
                       </div>
-                      <div class="u__btncta">
+                      <div class="u__btncta" target="digestive-and-gut">
                         <a href="javascript:void(0);">Learn more<span></span></a>
                       </div>
                     </article>
@@ -111,7 +125,7 @@
                         <h3 class="s_name">Smoking</h3>
                         <p class="s_desc">Take control over your health early with our smokers test bundle</p>
                       </div>
-                      <div class="u__btncta">
+                      <div class="u__btncta" target="smoking">
                         <a href="javascript:void(0);">Learn more<span></span></a>
                       </div>
                     </article>
@@ -123,7 +137,7 @@
                         <h3 class="s_name">Drinking</h3>
                         <p class="s_desc">Understand the health of one of the most hardworking organs of your body – your liver.</p>
                       </div>
-                      <div class="u__btncta">
+                      <div class="u__btncta" target="drinking">
                         <a href="javascript:void(0);">Learn more<span></span></a>
                       </div>
                     </article>
@@ -131,11 +145,11 @@
                       <figure>
                         <img src="./img/icon-weight-management-and-fatigue.svg">
                       </figure>
-                      <div class="s_middlebox">
+                      <div class="s_middlebox v_longtit">
                         <h3 class="s_name">Weight management and fatigue</h3>
                         <p class="s_desc">Take control of your body by understanding your thyroid levels.</p>
                       </div>
-                      <div class="u__btncta">
+                      <div class="u__btncta" target="weight-management-and-fatigue">
                         <a href="javascript:void(0);">Learn more<span></span></a>
                       </div>
                     </article>
@@ -147,7 +161,7 @@
                         <h3 class="s_name">Immunity</h3>
                         <p class="s_desc">Understand your vitamin and iron levels with this immunity bundle.</p>
                       </div>
-                      <div class="u__btncta">
+                      <div class="u__btncta" target="immunity">
                         <a href="javascript:void(0);">Learn more<span></span></a>
                       </div>
                     </article>
@@ -159,7 +173,7 @@
                         <h3 class="s_name">Hormone</h3>
                         <p class="s_desc">Allow yourself to have a peace of mind by staying a step ahead in your reproductive health</p>
                       </div>
-                      <div class="u__btncta">
+                      <div class="u__btncta" target="hormone">
                         <a href="javascript:void(0);">Learn more<span></span></a>
                       </div>
                     </article>
@@ -171,7 +185,7 @@
                         <h3 class="s_name">TCM</h3>
                         <p class="s_desc">Let the east meet the west and allow us to uncover your health</p>
                       </div>
-                      <div class="u__btncta">
+                      <div class="u__btncta" target="tcm">
                         <a href="javascript:void(0);">Learn more<span></span></a>
                       </div>
                     </article>
@@ -186,17 +200,570 @@
   </main>
   <!-- 弹窗 -->
   <!-- 调试，先去掉 s_hidden这个class -->
-  <section class="c__optimise_modal s_hidden">
+  <!-- Cancer Risk -->
+  <section class="c__optimise_modal s_hidden cancer-risk">
     <div class="s_modalbox">
       <div class="s_modalbg">
         <article class="s_modalcontent">
-          <span class="s_iconclose" id="close_target">
+          <span class="s_iconclose">
             <!-- <img src="./img/header-close.svg"> -->
           </span>
           <h2 class="s_title">
             <span>Optimise Name</span>
           </h2>
           <h3 class="s_subtitle">Cancer Risk</h3>
+          <article class="s_imgbox">
+            <figure class="s_graffiti">
+              <img src="./img/icon-service.svg">
+            </figure>
+            <p class="s_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </article>
+          <article class="s_ullist">
+            <div class="s_shapes">
+              <div class="u__shapelinear v_white v_shape half_transparent"></div>
+              <div class="u__shapelinear v_white v_flip v_shape half_transparent"></div>
+            </div>
+            <article class="s_ul">
+              <section class="c_infolist">
+                <h4>Recommended for</h4>
+                <p>Recommended for For women above the age of 45 or for those who have a family history of cancer.</p>
+              </section>
+            </article>
+            <article class="s_ul">
+              <section class="c_infolist">
+                <h4>What’s included</h4>
+                <ul class="s_withdes">
+                  <li>AFP</li>
+                  <li>CEA</li>
+                  <li>PSA</li>
+                  <li>CA19.9</li>
+                  <li>EBV</li>
+                  <li>GASTROClear<span></span>
+                    <div class="s_destip s_hidden">GASTROClear is the world’s first approved blood test for stomach cancer early detection.</div>
+                  </li>
+                  <li>Doctors’ Consultation</li>
+                </ul>
+              </section>
+              <section class="c_infolist">
+                <h4>Samples collected</h4>
+                <ul class="s_withtag">
+                  <li>Blood<span class="active"></span></li>
+                  <li>Samples<span></span></li>
+                </ul>
+              </section>
+              <section class="c_infolist">
+                <h4>Duration</h4>
+                <ul>
+                  <li>30mins</li>
+                </ul>
+              </section>
+              <section class="c_buybox">
+                <p class="s_price">$99</p>
+                <div class="u__btncta">
+                  <a href="javascript:void(0);">Book appointment<span></span></a>
+                </div>
+              </section>
+            </article>
+          </article>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- Cardio Risk -->
+  <section class="c__optimise_modal s_hidden cardio-risk">
+    <div class="s_modalbox">
+      <div class="s_modalbg">
+        <article class="s_modalcontent">
+          <span class="s_iconclose" >
+            <!-- <img src="./img/header-close.svg"> -->
+          </span>
+          <h2 class="s_title">
+            <span>Optimise Name</span>
+          </h2>
+          <h3 class="s_subtitle">Cardio Risk</h3>
+          <article class="s_imgbox">
+            <figure class="s_graffiti">
+              <img src="./img/icon-service.svg">
+            </figure>
+            <p class="s_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </article>
+          <article class="s_ullist">
+            <div class="s_shapes">
+              <div class="u__shapelinear v_white v_shape half_transparent"></div>
+              <div class="u__shapelinear v_white v_flip v_shape half_transparent"></div>
+            </div>
+            <article class="s_ul">
+              <section class="c_infolist">
+                <h4>Recommended for</h4>
+                <p>Recommended for For women above the age of 45 or for those who have a family history of cancer.</p>
+              </section>
+            </article>
+            <article class="s_ul">
+              <section class="c_infolist">
+                <h4>What’s included</h4>
+                <ul class="s_withdes">
+                  <li>AFP</li>
+                  <li>CEA</li>
+                  <li>PSA</li>
+                  <li>CA19.9</li>
+                  <li>EBV</li>
+                  <li>GASTROClear<span></span>
+                    <div class="s_destip s_hidden">GASTROClear is the world’s first approved blood test for stomach cancer early detection.</div>
+                  </li>
+                  <li>Doctors’ Consultation</li>
+                </ul>
+              </section>
+              <section class="c_infolist">
+                <h4>Samples collected</h4>
+                <ul class="s_withtag">
+                  <li>Blood<span class="active"></span></li>
+                  <li>Samples<span></span></li>
+                </ul>
+              </section>
+              <section class="c_infolist">
+                <h4>Duration</h4>
+                <ul>
+                  <li>30mins</li>
+                </ul>
+              </section>
+              <section class="c_buybox">
+                <p class="s_price">$99</p>
+                <div class="u__btncta">
+                  <a href="javascript:void(0);">Book appointment<span></span></a>
+                </div>
+              </section>
+            </article>
+          </article>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- Digestive and Gut -->
+  <section class="c__optimise_modal s_hidden digestive-and-gut">
+    <div class="s_modalbox">
+      <div class="s_modalbg">
+        <article class="s_modalcontent">
+          <span class="s_iconclose" >
+            <!-- <img src="./img/header-close.svg"> -->
+          </span>
+          <h2 class="s_title">
+            <span>Optimise Name</span>
+          </h2>
+          <h3 class="s_subtitle">Digestive and Gut</h3>
+          <article class="s_imgbox">
+            <figure class="s_graffiti">
+              <img src="./img/icon-service.svg">
+            </figure>
+            <p class="s_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </article>
+          <article class="s_ullist">
+            <div class="s_shapes">
+              <div class="u__shapelinear v_white v_shape half_transparent"></div>
+              <div class="u__shapelinear v_white v_flip v_shape half_transparent"></div>
+            </div>
+            <article class="s_ul">
+              <section class="c_infolist">
+                <h4>Recommended for</h4>
+                <p>Recommended for For women above the age of 45 or for those who have a family history of cancer.</p>
+              </section>
+            </article>
+            <article class="s_ul">
+              <section class="c_infolist">
+                <h4>What’s included</h4>
+                <ul class="s_withdes">
+                  <li>AFP</li>
+                  <li>CEA</li>
+                  <li>PSA</li>
+                  <li>CA19.9</li>
+                  <li>EBV</li>
+                  <li>GASTROClear<span></span>
+                    <div class="s_destip s_hidden">GASTROClear is the world’s first approved blood test for stomach cancer early detection.</div>
+                  </li>
+                  <li>Doctors’ Consultation</li>
+                </ul>
+              </section>
+              <section class="c_infolist">
+                <h4>Samples collected</h4>
+                <ul class="s_withtag">
+                  <li>Blood<span class="active"></span></li>
+                  <li>Samples<span></span></li>
+                </ul>
+              </section>
+              <section class="c_infolist">
+                <h4>Duration</h4>
+                <ul>
+                  <li>30mins</li>
+                </ul>
+              </section>
+              <section class="c_buybox">
+                <p class="s_price">$99</p>
+                <div class="u__btncta">
+                  <a href="javascript:void(0);">Book appointment<span></span></a>
+                </div>
+              </section>
+            </article>
+          </article>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- Smoking -->
+  <section class="c__optimise_modal s_hidden smoking">
+    <div class="s_modalbox">
+      <div class="s_modalbg">
+        <article class="s_modalcontent">
+          <span class="s_iconclose" >
+            <!-- <img src="./img/header-close.svg"> -->
+          </span>
+          <h2 class="s_title">
+            <span>Optimise Name</span>
+          </h2>
+          <h3 class="s_subtitle">Smoking</h3>
+          <article class="s_imgbox">
+            <figure class="s_graffiti">
+              <img src="./img/icon-service.svg">
+            </figure>
+            <p class="s_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </article>
+          <article class="s_ullist">
+            <div class="s_shapes">
+              <div class="u__shapelinear v_white v_shape half_transparent"></div>
+              <div class="u__shapelinear v_white v_flip v_shape half_transparent"></div>
+            </div>
+            <article class="s_ul">
+              <section class="c_infolist">
+                <h4>Recommended for</h4>
+                <p>Recommended for For women above the age of 45 or for those who have a family history of cancer.</p>
+              </section>
+            </article>
+            <article class="s_ul">
+              <section class="c_infolist">
+                <h4>What’s included</h4>
+                <ul class="s_withdes">
+                  <li>AFP</li>
+                  <li>CEA</li>
+                  <li>PSA</li>
+                  <li>CA19.9</li>
+                  <li>EBV</li>
+                  <li>GASTROClear<span></span>
+                    <div class="s_destip s_hidden">GASTROClear is the world’s first approved blood test for stomach cancer early detection.</div>
+                  </li>
+                  <li>Doctors’ Consultation</li>
+                </ul>
+              </section>
+              <section class="c_infolist">
+                <h4>Samples collected</h4>
+                <ul class="s_withtag">
+                  <li>Blood<span class="active"></span></li>
+                  <li>Samples<span></span></li>
+                </ul>
+              </section>
+              <section class="c_infolist">
+                <h4>Duration</h4>
+                <ul>
+                  <li>30mins</li>
+                </ul>
+              </section>
+              <section class="c_buybox">
+                <p class="s_price">$99</p>
+                <div class="u__btncta">
+                  <a href="javascript:void(0);">Book appointment<span></span></a>
+                </div>
+              </section>
+            </article>
+          </article>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- Drinking -->
+  <section class="c__optimise_modal s_hidden drinking">
+    <div class="s_modalbox">
+      <div class="s_modalbg">
+        <article class="s_modalcontent">
+          <span class="s_iconclose" >
+            <!-- <img src="./img/header-close.svg"> -->
+          </span>
+          <h2 class="s_title">
+            <span>Optimise Name</span>
+          </h2>
+          <h3 class="s_subtitle">Drinking</h3>
+          <article class="s_imgbox">
+            <figure class="s_graffiti">
+              <img src="./img/icon-service.svg">
+            </figure>
+            <p class="s_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </article>
+          <article class="s_ullist">
+            <div class="s_shapes">
+              <div class="u__shapelinear v_white v_shape half_transparent"></div>
+              <div class="u__shapelinear v_white v_flip v_shape half_transparent"></div>
+            </div>
+            <article class="s_ul">
+              <section class="c_infolist">
+                <h4>Recommended for</h4>
+                <p>Recommended for For women above the age of 45 or for those who have a family history of cancer.</p>
+              </section>
+            </article>
+            <article class="s_ul">
+              <section class="c_infolist">
+                <h4>What’s included</h4>
+                <ul class="s_withdes">
+                  <li>AFP</li>
+                  <li>CEA</li>
+                  <li>PSA</li>
+                  <li>CA19.9</li>
+                  <li>EBV</li>
+                  <li>GASTROClear<span></span>
+                    <div class="s_destip s_hidden">GASTROClear is the world’s first approved blood test for stomach cancer early detection.</div>
+                  </li>
+                  <li>Doctors’ Consultation</li>
+                </ul>
+              </section>
+              <section class="c_infolist">
+                <h4>Samples collected</h4>
+                <ul class="s_withtag">
+                  <li>Blood<span class="active"></span></li>
+                  <li>Samples<span></span></li>
+                </ul>
+              </section>
+              <section class="c_infolist">
+                <h4>Duration</h4>
+                <ul>
+                  <li>30mins</li>
+                </ul>
+              </section>
+              <section class="c_buybox">
+                <p class="s_price">$99</p>
+                <div class="u__btncta">
+                  <a href="javascript:void(0);">Book appointment<span></span></a>
+                </div>
+              </section>
+            </article>
+          </article>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- Weight management and fatigue -->
+  <section class="c__optimise_modal s_hidden weight-management-and-fatigue">
+    <div class="s_modalbox">
+      <div class="s_modalbg">
+        <article class="s_modalcontent">
+          <span class="s_iconclose" >
+            <!-- <img src="./img/header-close.svg"> -->
+          </span>
+          <h2 class="s_title">
+            <span>Optimise Name</span>
+          </h2>
+          <h3 class="s_subtitle">Weight management and fatigue</h3>
+          <article class="s_imgbox">
+            <figure class="s_graffiti">
+              <img src="./img/icon-service.svg">
+            </figure>
+            <p class="s_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </article>
+          <article class="s_ullist">
+            <div class="s_shapes">
+              <div class="u__shapelinear v_white v_shape half_transparent"></div>
+              <div class="u__shapelinear v_white v_flip v_shape half_transparent"></div>
+            </div>
+            <article class="s_ul">
+              <section class="c_infolist">
+                <h4>Recommended for</h4>
+                <p>Recommended for For women above the age of 45 or for those who have a family history of cancer.</p>
+              </section>
+            </article>
+            <article class="s_ul">
+              <section class="c_infolist">
+                <h4>What’s included</h4>
+                <ul class="s_withdes">
+                  <li>AFP</li>
+                  <li>CEA</li>
+                  <li>PSA</li>
+                  <li>CA19.9</li>
+                  <li>EBV</li>
+                  <li>GASTROClear<span></span>
+                    <div class="s_destip s_hidden">GASTROClear is the world’s first approved blood test for stomach cancer early detection.</div>
+                  </li>
+                  <li>Doctors’ Consultation</li>
+                </ul>
+              </section>
+              <section class="c_infolist">
+                <h4>Samples collected</h4>
+                <ul class="s_withtag">
+                  <li>Blood<span class="active"></span></li>
+                  <li>Samples<span></span></li>
+                </ul>
+              </section>
+              <section class="c_infolist">
+                <h4>Duration</h4>
+                <ul>
+                  <li>30mins</li>
+                </ul>
+              </section>
+              <section class="c_buybox">
+                <p class="s_price">$99</p>
+                <div class="u__btncta">
+                  <a href="javascript:void(0);">Book appointment<span></span></a>
+                </div>
+              </section>
+            </article>
+          </article>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- Immunity -->
+  <section class="c__optimise_modal s_hidden immunity">
+    <div class="s_modalbox">
+      <div class="s_modalbg">
+        <article class="s_modalcontent">
+          <span class="s_iconclose" >
+            <!-- <img src="./img/header-close.svg"> -->
+          </span>
+          <h2 class="s_title">
+            <span>Optimise Name</span>
+          </h2>
+          <h3 class="s_subtitle">Immunity</h3>
+          <article class="s_imgbox">
+            <figure class="s_graffiti">
+              <img src="./img/icon-service.svg">
+            </figure>
+            <p class="s_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </article>
+          <article class="s_ullist">
+            <div class="s_shapes">
+              <div class="u__shapelinear v_white v_shape half_transparent"></div>
+              <div class="u__shapelinear v_white v_flip v_shape half_transparent"></div>
+            </div>
+            <article class="s_ul">
+              <section class="c_infolist">
+                <h4>Recommended for</h4>
+                <p>Recommended for For women above the age of 45 or for those who have a family history of cancer.</p>
+              </section>
+            </article>
+            <article class="s_ul">
+              <section class="c_infolist">
+                <h4>What’s included</h4>
+                <ul class="s_withdes">
+                  <li>AFP</li>
+                  <li>CEA</li>
+                  <li>PSA</li>
+                  <li>CA19.9</li>
+                  <li>EBV</li>
+                  <li>GASTROClear<span></span>
+                    <div class="s_destip s_hidden">GASTROClear is the world’s first approved blood test for stomach cancer early detection.</div>
+                  </li>
+                  <li>Doctors’ Consultation</li>
+                </ul>
+              </section>
+              <section class="c_infolist">
+                <h4>Samples collected</h4>
+                <ul class="s_withtag">
+                  <li>Blood<span class="active"></span></li>
+                  <li>Samples<span></span></li>
+                </ul>
+              </section>
+              <section class="c_infolist">
+                <h4>Duration</h4>
+                <ul>
+                  <li>30mins</li>
+                </ul>
+              </section>
+              <section class="c_buybox">
+                <p class="s_price">$99</p>
+                <div class="u__btncta">
+                  <a href="javascript:void(0);">Book appointment<span></span></a>
+                </div>
+              </section>
+            </article>
+          </article>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- Hormone -->
+  <section class="c__optimise_modal s_hidden hormone">
+    <div class="s_modalbox">
+      <div class="s_modalbg">
+        <article class="s_modalcontent">
+          <span class="s_iconclose" >
+            <!-- <img src="./img/header-close.svg"> -->
+          </span>
+          <h2 class="s_title">
+            <span>Optimise Name</span>
+          </h2>
+          <h3 class="s_subtitle">Hormone</h3>
+          <article class="s_imgbox">
+            <figure class="s_graffiti">
+              <img src="./img/icon-service.svg">
+            </figure>
+            <p class="s_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </article>
+          <article class="s_ullist">
+            <div class="s_shapes">
+              <div class="u__shapelinear v_white v_shape half_transparent"></div>
+              <div class="u__shapelinear v_white v_flip v_shape half_transparent"></div>
+            </div>
+            <article class="s_ul">
+              <section class="c_infolist">
+                <h4>Recommended for</h4>
+                <p>Recommended for For women above the age of 45 or for those who have a family history of cancer.</p>
+              </section>
+            </article>
+            <article class="s_ul">
+              <section class="c_infolist">
+                <h4>What’s included</h4>
+                <ul class="s_withdes">
+                  <li>AFP</li>
+                  <li>CEA</li>
+                  <li>PSA</li>
+                  <li>CA19.9</li>
+                  <li>EBV</li>
+                  <li>GASTROClear<span></span>
+                    <div class="s_destip s_hidden">GASTROClear is the world’s first approved blood test for stomach cancer early detection.</div>
+                  </li>
+                  <li>Doctors’ Consultation</li>
+                </ul>
+              </section>
+              <section class="c_infolist">
+                <h4>Samples collected</h4>
+                <ul class="s_withtag">
+                  <li>Blood<span class="active"></span></li>
+                  <li>Samples<span></span></li>
+                </ul>
+              </section>
+              <section class="c_infolist">
+                <h4>Duration</h4>
+                <ul>
+                  <li>30mins</li>
+                </ul>
+              </section>
+              <section class="c_buybox">
+                <p class="s_price">$99</p>
+                <div class="u__btncta">
+                  <a href="javascript:void(0);">Book appointment<span></span></a>
+                </div>
+              </section>
+            </article>
+          </article>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- TCM -->
+  <section class="c__optimise_modal s_hidden tcm">
+    <div class="s_modalbox">
+      <div class="s_modalbg">
+        <article class="s_modalcontent">
+          <span class="s_iconclose" >
+            <!-- <img src="./img/header-close.svg"> -->
+          </span>
+          <h2 class="s_title">
+            <span>Optimise Name</span>
+          </h2>
+          <h3 class="s_subtitle">TCM</h3>
           <article class="s_imgbox">
             <figure class="s_graffiti">
               <img src="./img/icon-service.svg">
@@ -321,10 +888,10 @@
 
 <script type="text/javascript">
   $(document).ready(function () {
-      $(".s_optimiseitem .u__btncta").on("click","a",function(){
-        $(".c__optimise_modal").removeClass("s_hidden");
+      $(".s_optimiseitem .u__btncta").on("click",function(){
+        $(".c__optimise_modal."+$(this).attr("target")).removeClass("s_hidden");
       });
-      $("#close_target").on("click",function(){
+      $(".s_iconclose").on("click",function(){
         $(".c__optimise_modal").addClass("s_hidden");
       })
 
