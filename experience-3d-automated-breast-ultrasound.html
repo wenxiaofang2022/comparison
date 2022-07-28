@@ -18,7 +18,30 @@
   <link rel="stylesheet" type="text/css" href="./css/swiper-bundle.min.css">
   <link rel="stylesheet" type="text/css" href="./css/main.css?v=1658834117164" />
   <link rel="stylesheet" type="text/css" href="./css/main2.css?v=1658834117164" />
-
+  <style type="text/css">
+    @media only screen and (min-width: 1000px) {
+      main.p__subpages .c__contents .c__caseflex .s_subtitle{
+        max-width: 842px;
+        margin: 0 auto;
+      }
+    }
+    @media only screen and (min-width: 1440px) {
+      main.p__subpages .c__contents .c__caseflex .s_caselist{
+        max-width: 1320px;
+        margin: 0 auto;
+      }
+    }
+    @media screen and (min-width: 1180px) and (max-width: 1439px){
+      main.p__subpages .c__contents .c__caseflex .s_caselist .s_caseitem .s_casetitle{
+        height: 84px;
+      }
+    }
+    @media screen and (min-width: 944px) and (max-width: 1179px){
+      main.p__subpages .c__contents .c__caseflex .s_caselist .s_caseitem .s_casetitle{
+        height: 126px;
+      }
+    }
+  </style>
   <script src="./js/vendor/modernizr-custom.js?v=1658834117164" type="text/javascript"></script>
 </head>
 
@@ -48,63 +71,73 @@
     <section>
       <section class="c__contents">
         <div>
-          <section class="c__subpageintro">
+          <section class="c__subpageintro v_maxwidth s_experience_detail">
             <div>
               <article>
-                <figure class="s_logo">
-                  <img src="./img/logo-healthcare.svg">
-                </figure>
-                <h1 class="s_title s_experience">GE Healthcare’s First Reference Centre in ASEAN</h1>
-                <p class="s_desc"><strong>early Medical Centre</strong> becomes the first ASEAN Reference Centre for GE Healthcare following early's investment in the most advanced GE radiological diagnostic equipment.</p>
+                <h2 class="s_bigtitle">3D Automated Breast Ultrasound</h2>
+                <h3 class="s_subtitle v_pill">
+                  <span>Invenia ABUS</span>
+                </h3>
+                <h1 class="s_title">Low radiation Breast Cancer screening for Asian women under 40.</h1>
+                <p class="s_content">About 80 percent of Asian women have dense breast tissue. Both dense breast tissue and cancer appear white on a mammogram, creating a dangerous camouflage effect and a dilemma for radiologists whose goal is to find breast cancer as early as possible.<br/><br/>The addition of ABUS to your screening exam can provide a more comprehensive evaluation, help your physician identify any abnormalities in your tissue, and determine the next steps in your care.</p>
               </article>
-
-              <div class="s_shapes s_experience">
+              <div class="s_shapes s_experience_detail">
                 <div class="u__shapelinear v_shape half_transparent"></div>
+                <div class="u__shapelinear v_shape v_flip half_transparent"></div>
               </div>
-
-              <span class="u__arrow v_red"></span>
             </div>
           </section>
 
-          <section class="c__imglist">
+          <section class="c__imgcaption v_maxwidth">
             <div>
-              <article class="s_imgitem">
+              <article class="s_imgcaption">
                 <figure>
-                  <img src="./img/image-3d-automated-breast-ultrasound.jpg" />
+                  <img src="./img/image-mammogram-abus.jpg" />
                 </figure>
-                
-                <div>
-                  <h4>3D Automated Breast Ultrasound</h4>
-                  <p>Low radiation Breast Cancer screening for Asian women under 40.</p>
-                  <div class="u__btncta">
-                    <a href="experience-3d-automated-breast-ultrasound.html">Learn more<span></span></a>
-                  </div>
-                </div>
+                <p>Cancer can be hard to spot in Mammogram compared with ABUS.</p>
               </article>
-              <article class="s_imgitem">
-                <figure>
-                  <img src="./img/image-ct-scan.jpg" />
-                </figure>
-                <div>
-                  <h4>CT Scan</h4>
-                  <p>High definition and low dosage CT Scan.</p>
-                  <div class="u__btncta">
-                    <a href="experience-ct-scan.html">Learn more<span></span></a>
-                  </div>
-                </div>
-              </article>
-              <article class="s_imgitem">
-                <figure>
-                  <img src="./img/image-mammography.jpg" />
-                </figure>
-                <div>
-                  <h4 style="color:#363434;">Mammography</h4>
-                  <p style="color:#363434;">TIME Magazine's Best Inventions for Health Care.</p>
-                  <div class="u__btncta">
-                    <a href="experience-mammography.html">Learn more<span></span></a>
-                  </div>
-                </div>
-              </article>
+            </div>
+          </section>
+
+          <section class="c__caseflex">
+            <div>
+              <div class="s_subtitle">
+                <h2>The only FDA approved 3D Ultrasound specifically designed for detecting cancer in a dense breast tissue.</h2>
+              </div>
+
+              <div class="s_caselist">
+                <article class="s_caseitem">
+                  <figure class="s_caseicon">
+                    <img src="./img/icon-smile.svg" />
+                  </figure>
+                  <h3 class="s_casetitle">More comfortable than mammogram</h3>
+                  <p class="s_casedesc">ABUS provides a more comfortable screening experience compared with the mammogram.<br><br>The gentle shape of the Reverse Curve™ transducer follows the natural contour of the breast, providing patient comfort, full contact and helping ensure comprehensive coverage.</p>
+                </article>
+                <article class="s_caseitem">
+                  <figure class="s_caseicon">
+                    <img src="./img/icon-enhance.svg" />
+                  </figure>
+                  <h3 class="s_casetitle">Low radiation with fast screening time</h3>
+                  <p class="s_casedesc">ABUS is a non-ionizing alternative to other supplemental screening options like mammogram. Hence, making ABUS a much less invasive Breast Cancer screening option especially for women under 40.<br><br>With its 30% faster screening time compared with handheld Ultrasound, ABUS is quick and accessible for busy women.</p>
+                </article>
+                <article class="s_caseitem">
+                  <figure class="s_caseicon">
+                    <img src="./img/icon-breast.svg" />
+                  </figure>
+                  <h3 class="s_casetitle">Accuracy in diagnosis for dense breasts</h3>
+                  <p class="s_casedesc">Screening mammography in women with dense breasts has reduced sensitivity. ABUS is specifically designed for detecting cancer in dense breast tissue.<br><br>Compared to mammography alone,  ABUS imaging looks differently at dense breast tissue, providing a comprehensive view of the breast. This technology has demonstrated a 35.7% increase in cancer detection over mammography alone for these women.*<br/><br/><span style="font-size:14px;">*FDA PMA P1 10006 summary of safetv and effectiveness.</span></p>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <section class="c__videobox">
+            <div>
+              <div class="u__content">
+                <section class="u__videobox">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/RlOB3UALvrQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </section>
+              </div>
             </div>
           </section>
         </div>
@@ -170,7 +203,7 @@
         </section>
     </section>
 </footer>
-  
+
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
@@ -205,7 +238,7 @@
           });
       });
   </script>
-
+  
 </body>
 
 </html>

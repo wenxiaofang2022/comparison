@@ -1374,7 +1374,8 @@ main.p__subpages .c__contents .c__subpageintro .s_shapes.s_experience_detail .v_
     border-radius: 251px;
     left: auto;
     right: 10px;
-    top: 80px;
+    /* top: 80px; */
+    top: 68px;
     z-index: -1;
 }
 main.p__subpages .c__contents .c__subpageintro .s_shapes.s_experience_detail .v_shape:nth-child(2) {
@@ -1573,15 +1574,15 @@ main.p__subpages .c__contents .c__subpageintro .s_bigtit span {
     padding: 0 22px;
     display: inline-block;
 }
-main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(1){
+/* main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(1){
     text-align: left;
-}
+} */
 main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(1) span{
     /* width: 196px; */
 }
-main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(2){
+/* main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(2){
     text-align: right;
-}
+} */
 main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(2) span{
     width:auto;
 }
@@ -2331,26 +2332,26 @@ main.p__subpages .c__contents .c__subpageintro .s_servicelist .s_serviceitem .s_
 }
 
 @media only screen and (min-width:440px){
-    main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(1){
+    /* main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(1){
         text-align: left;
         padding-left: 10%;
-    }
-    main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(2){
+    } */
+    /* main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(2){
         text-align: right;
         padding-right: 10%;
-    }
+    } */
 }
 @media only screen and (min-width:568px){
-    main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(1){
+    /* main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(1){
         text-align: left;
         padding-left: 0px;
         display: inline-block;
-    }
-    main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(2){
+    } */
+    /* main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(2){
         text-align: right;
         padding-right: 0px;
         display: inline-block;
-    }
+    } */
 }
 @media only screen and (min-width: 376px) {
     main .c__contents .u__sect .u__content .s_desc {
@@ -2473,16 +2474,16 @@ main.p__subpages .c__contents .c__subpageintro .s_servicelist .s_serviceitem .s_
 }
 
 @media only screen and (min-width: 668px) {
-    main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(1){
+    /* main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(1){
         text-align: left;
         padding-left: 10%;
         display: block;
-    }
-    main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(2){
+    } */
+    /* main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(2){
         text-align: right;
         padding-right: 10%;
         display: block;
-    }
+    } */
     /* main.p__subpages .c__contents .c__subpageintro .s_bigtit div{
         display: inline-block;
         text-align: center;
@@ -3412,14 +3413,14 @@ main.p__subpages .c__contents .c__subpageintro .s_servicelist .s_serviceitem .s_
     }
   }
   @media only screen and (min-width:790px){
-    main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(1){
+    /* main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(1){
         padding-left: 0px;
         display:inline-block
     }
     main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(2){
         padding-right: 0px;
         display: inline-block;
-    }
+    } */
 }
 @media screen and (min-width: 898px) and (max-width: 999px) {
     main .c__contents .c__futurehealth .u__content .u__img {
@@ -3656,7 +3657,7 @@ main.p__subpages .c__contents .c__subpageintro .s_servicelist .s_serviceitem .s_
     }
 }
 @media only screen and (min-width: 898px) {
-    main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(1){
+    /* main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(1){
         text-align: left;
         padding-left: 10%;
         display: block;
@@ -3665,7 +3666,7 @@ main.p__subpages .c__contents .c__subpageintro .s_servicelist .s_serviceitem .s_
         text-align: right;
         padding-right: 10%;
         display: block;
-    }
+    } */
     main.p__subpages .c__contents .c__subpageintro .s_shapes.s_control .v_shape::before{
         border-radius: 388px;
     }
@@ -4280,14 +4281,14 @@ main.p__subpages .c__contents .c__subpageintro .s_servicelist .s_serviceitem .s_
     }
   }
   @media only screen and (min-width:974px){
-    main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(1){
+    /* main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(1){
         padding-left: 0px;
         display:inline-block
     }
     main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(2){
         padding-right: 0px;
         display: inline-block;
-    }
+    } */
 }
 @media screen and (min-width: 1000px) and (max-width: 1439px) {
     main .c__contents .c__futurehealth .u__content .u__img {

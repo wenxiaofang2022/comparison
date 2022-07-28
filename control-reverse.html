@@ -18,7 +18,83 @@
   <link rel="stylesheet" type="text/css" href="./css/swiper-bundle.min.css">
   <link rel="stylesheet" type="text/css" href="./css/main.css?v=1658834117164" />
   <link rel="stylesheet" type="text/css" href="./css/main2.css?v=1658834117164" />
-
+  <style type="text/css">
+    @media screen and (min-width: 762px) and (max-width: 897px){
+      main.p__subpages .c__contents .c__subpageintro .s_desc{
+        max-width: 700px;
+        margin: 0 auto;
+      }
+    }
+    @media only screen and (max-width: 999px) {
+      main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(1){
+        display: block;
+        margin: 0 auto;
+        text-align: left;
+      }
+      main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(1) span{
+        white-space: nowrap;
+      }
+      main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(2){
+        display: block;
+        margin: 0 auto;
+        margin-top: 7px;
+        text-align: right;
+      }
+      main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(2) span{
+        white-space: nowrap;
+      }
+    }
+    @media only screen and (max-width: 667px){
+      main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(1){
+        width: 256px;
+      }
+      main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(1) span{
+        margin-left: -37px;
+      }
+      main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(2){
+        width: 256px;
+      }
+      main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(2) span{
+        margin-right:-37px;
+      }
+    }
+    @media screen and (min-width: 668px) and (max-width: 897px){
+      main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(1){
+        width: 356px;
+      }
+      main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(1) span{
+        margin-left: -52px;
+      }
+      main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(2){
+        width: 356px;
+      }
+      main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(2) span{
+        margin-right:-52px;
+      }
+    }
+    @media screen and (min-width: 898px) and (max-width: 999px){
+      main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(1){
+        width: 426px;
+      }
+      main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(1) span{
+        margin-left: -86px;
+      }
+      main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(2){
+        width: 426px;
+      }
+      main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(2) span{
+        margin-right:-86px;
+      }
+    }
+    @media only screen and (min-width: 1000px){
+      main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(1){
+        display: inline-block;
+      }
+      main.p__subpages .c__contents .c__subpageintro .s_bigtit div:nth-child(2){
+        display: inline-block;
+      }
+    }
+  </style>
   <script src="./js/vendor/modernizr-custom.js?v=1658834117164" type="text/javascript"></script>
 </head>
 
@@ -31,18 +107,16 @@
               </a>
           </div>
 
-          <!--
           <input id="s_menu" name="s_menu" type="checkbox"></input>
           <label for="s_menu"><img  class="s_open" src ="img/header-open.svg"> <img class="s_close" src ="img/header-close.svg"></label>
           
           <nav>
               <ul id="menu-header-menu" class="menu">
                  
-                  <li id="menu-item-163" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-163"><a href="corporate.html" itemprop="url">Corporate</a></li>
-                  
+                  <li id="menu-item-163" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-163"><a href="services.html" itemprop="url">SERVICES</a></li>
+                  <li id="menu-item-163" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-163"><a href="experience.html" itemprop="url">EXPERIENCE</a></li>
               </ul>
           </nav>
-          -->
       </section>
   </header>
   
@@ -68,6 +142,10 @@
                   <div>
                     <span>Medical Experts</span>
                   </div>
+                  <!-- <div>
+                    <span>Meet our</span>
+                    <span>Medical Experts</span>
+                  </div> -->
                 </div>
                 <p class="s_desc">Bringing together medical specialists, traditional medicine practitioners, and allied healthcare practitioners to create personalised treatment plans for you.</p>
               </article>
@@ -77,43 +155,75 @@
                   <div class="s_expertslist">
                     <article class="s_expertitem">
                       <figure>
-                        <img src="./img/control-reverse.jpg" />
+                        <img src="./img/dr-roger-tan.jpg" />
                       </figure>
                       <h3 class="s_name">Dr Roger Tan</h3>
                       <p class="s_desc">Consultant nephrologist and physician</p>
-                      <p class="s_detail">Conceptualised by an award-winning team of spatial and</p>
+                      <p class="s_detail">Roger Kidney Clinic</p>
                     </article>
                     <article class="s_expertitem">
                       <figure>
-                        <img src="./img/control-reverse.jpg" />
+                        <img src="./img/dr-bernard-lim.jpg" />
                       </figure>
-                      <h3 class="s_name">Dr Roger Tan</h3>
-                      <p class="s_desc">Consultant nephrologist and physician</p>
+                      <h3 class="s_name">Dr Bernard Lim</h3>
+                      <p class="s_desc">Consultant Colorectal Surgeon</p>
+                      <p class="s_detail">Bernard Lim Specialist Surgery</p>
+                    </article>
+                    <article class="s_expertitem">
+                      <figure>
+                        <img src="./img/dr-chia-yin-nin.jpg" />
+                      </figure>
+                      <h3 class="s_name">Dr Chia Yin Nin</h3>
+                      <p class="s_desc">Certified Gynaecological Oncologist</p>
+                      <p class="s_detail">Gynaecology & Oncology Specialists</p>
+                    </article>
+                    <article class="s_expertitem">
+                      <figure>
+                        <img src="./img/dr-derek-yong.jpg" />
+                      </figure>
+                      <h3 class="s_name">Dr Derek Yong</h3>
+                      <p class="s_desc">Consultant General and Interventional Cardiologist</p>
+                      <p class="s_detail">Prime Heart Centre</p>
+                    </article>
+                    <article class="s_expertitem">
+                      <figure>
+                        <img src="./img/dr-jaideep-raj-rao.jpg" />
+                      </figure>
+                      <h3 class="s_name">Dr Jaideep Raj Rao</h3>
+                      <p class="s_desc">Senior consultant upper gastrointestinal bariatric surgeon</p>
+                      <p class="s_detail">Consultant nephrologist and physician</p>
+                    </article>
+                    <article class="s_expertitem">
+                      <figure>
+                        <img src="./img/dr-lewis-liew.jpg" />
+                      </figure>
+                      <h3 class="s_name">Dr Lewis Liew</h3>
+                      <p class="s_desc">Senior Director</p>
                       <p class="s_detail">Specialist Urologist and accredited Robotic surgeon Advanced urology</p>
                     </article>
                     <article class="s_expertitem">
                       <figure>
-                        <img src="./img/control-reverse.jpg" />
+                        <img src="./img/dr-lynne-lim.jpg" />
                       </figure>
-                      <h3 class="s_name">Dr Roger Tan</h3>
-                      <p class="s_desc">Consultant nephrologist and physician</p>
-                      <p class="s_detail">Conceptualised by an award-winning team of spatial and</p>
+                      <h3 class="s_name">Dr Lynne Lim</h3>
+                      <p class="s_desc">Senior Consultant Ear Nose Throat – Head and Neck Surgeon </p>
+                      <p class="s_detail">Lynne Lim Ear Nose Throat and Hearing Centre</p>
                     </article>
                     <article class="s_expertitem">
                       <figure>
-                        <img src="./img/control-reverse.jpg" />
+                        <img src="./img/dr-mizan-marican.jpg" />
                       </figure>
-                      <h3 class="s_name">Dr Roger Tan</h3>
-                      <p class="s_desc">Consultant nephrologist and physician</p>
-                      <p class="s_detail">Conceptualised by an award-winning team of spatial and</p>
+                      <h3 class="s_name">Dr Mizan Marican</h3>
+                      <p class="s_desc">Consultant Orthopaedic Surgeon</p>
+                      <p class="s_detail">Orion Orthapedic Surgery</p>
                     </article>
                     <article class="s_expertitem">
                       <figure>
-                        <img src="./img/control-reverse.jpg" />
+                        <img src="./img/dr-naras-lapsys.jpg" />
                       </figure>
-                      <h3 class="s_name">Dr Roger Tan</h3>
-                      <p class="s_desc">Consultant nephrologist and physician</p>
-                      <p class="s_detail">Conceptualised by an award-winning team of spatial and</p>
+                      <h3 class="s_name">Dr Naras Lapsys</h3>
+                      <p class="s_desc">Accredited Practicing Dietitian and Nutritionist</p>
+                      <p class="s_detail">HealthSpan</p>
                     </article>
                   </div>
                 </div>
