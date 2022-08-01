@@ -500,6 +500,154 @@
             </figure>
         </section>
     </footer>
+    <script type="text/javascript">
+        $(function() {
+                var emailFilter = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+                function validateField(elm) {
+                    switch (elm.data('type')) {
+                        case 'text':
+                            if ($.trim(elm.val()) == '')
+                            {
+                                return false;
+                            }
+                        break;
+                        case 'email':
+                            if (!emailFilter.test(elm.val()))
+                            {
+                                return false;
+                            }
+                        break;
+                    }
+
+                    return true;
+                }
+
+                $('.js_signup').on('click',function(e) {
+                    e.preventDefault();
+
+                    var validate = true;
+
+                    $('.c__form .s_form input[type="text"]').each(function() {
+                        var $elm = $(this);
+
+                        if (!validateField($elm))
+                        {
+                            validate = false;
+                            $elm.addClass('v_error');
+                            $elm.next('.u__error').removeClass('hidden');
+                        }
+                        else
+                        {
+                            $elm.removeClass('v_error');
+                            $elm.next('.u__error').addClass('hidden');
+                        }
+                    });
+
+                    if (validate)
+                    {
+                        $.ajax({
+                            method:'POST',
+                            url:'api/',
+                            data:{ name:$('.f_name').val(), phone:$('.f_phone').val(), email:$('.f_email').val(), consent:$('.f_consent:checked').length }
+                        })
+                        .done(function() {
+                            // show the success message
+                            $('.c__notification.v_formmessage').removeClass('hidden');
+
+                            $('.c__form .s_form input[type="text"]').val('');
+                            $('.f_consent').prop('checked', false);
+                        });
+                    }
+                });
+
+                $('.c__notification.v_formmessage a').on('click', function(e) {
+                    e.preventDefault();
+
+                    $('.c__notification.v_formmessage').addClass('hidden');
+                });
+
+                $('.js_visit').on('click', function(e) {
+                    e.preventDefault();
+
+                    window.scrollTo({
+                        top:$('.c__form').offset().top + 120,
+                        behavior:'smooth',
+                    })
+                });
+
+                var prevScroll = 0,
+                curDir ='down',
+                prevDir ='up';
+
+                $(window).scroll(function(){
+                    if ($(this).scrollTop() > 0)
+                    {
+                        if($(this).scrollTop() >= prevScroll){
+                            curDir ='down';
+                            
+                            if(curDir != prevDir){
+                                //$('header').stop();
+                                $('header').addClass('v_scroll');
+                                prevDir = curDir;
+                            }
+                        }else {
+                            curDir ='up';
+                            if(curDir != prevDir){
+                                //$('header').stop();
+                                $('header').removeClass('v_scroll');
+                                prevDir = curDir;
+                            }
+                        }
+                        prevScroll = $(this).scrollTop();
+
+                        fadeInWA();
+                    }
+                });
+
+                function fadeInWA() {
+                    var paddingTop = parseInt($('.c__approach').css('padding-top'));
+                    var offsetTop = $('.c__approach').offset().top;
+                    var scrollTop = $(window).scrollTop();
+
+                    if (scrollTop - (offsetTop + (paddingTop / 3)) > 0)
+                    {
+                        $('.c__stickyicon').addClass('fadeIn');
+                    }
+                    else
+                    {
+                        $('.c__stickyicon').removeClass('fadeIn');
+                    }
+                }
+
+                $('.c__healthcare .s_image a').on('click', function(e) {
+                    e.preventDefault();
+
+                    var $this = $(this);
+
+                    swiper.slideTo($this.data('index'), 0);
+
+                    $('.c__lightbox').addClass('v_view');
+                });
+
+                $('.c__lightbox .js_close').on('click', function(e) {
+                    e.preventDefault();
+
+                    $('.c__lightbox').removeClass('v_view');
+                });
+
+                $('.u__arrow').on('click', function() {
+                    var $this = $(this);
+                    var $target = $('.' + $this.data('target'));
+
+                    window.scrollTo({
+                        top:$target.offset().top + 120,
+                        behavior:'smooth',
+                    })
+                });
+
+            });
+    </script>
 </body>
 
 </html>

@@ -330,8 +330,8 @@ main .c__contents .u__sect.c__advancing .u__content .s_absimg {
   position: absolute;
   width: 280px;
   height: 140px;
-  border-radius: 70px;
-  overflow: hidden
+  /* border-radius: 70px;
+  overflow: hidden */
 }
 
 main .c__contents .u__sect.c__advancing .u__content .s_absimg figure {
@@ -347,7 +347,9 @@ main .c__contents .u__sect.c__advancing .u__content .s_absimg figure a {
 
 main .c__contents .u__sect.c__advancing .u__content .s_absimg figure a img {
   width: 100%;
-  height: 100%
+  height: 100%;
+  border-radius: 70px;
+  overflow: hidden
 }
 
 main .c__contents .u__sect.c__advancing .u__content .s_absimg.v_vertical {
@@ -364,6 +366,22 @@ main .c__contents .u__sect.c__advancing .u__content .s_absimg.v_vertical figure 
   width: 100%;
   height: 100%;
   display: block
+}
+main .c__contents .u__sect.c__advancing .u__content .s_absimg figure a:after{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  background: url(../img/icon-plus.svg) center center no-repeat #EE907B;
+  background-size: 18px;
+  /* width: 34px;
+  height: 34px;
+  background-size: 24px; */
 }
 
 main .c__contents .u__sect.c__advancing .u__content .s_absimg.v_vertical figure a img {
@@ -1053,6 +1071,11 @@ main .c__contents .u__sect.c__visitus .u__content .s_imgtxt figure {
     border-radius: 88px
   }
 
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg figure a:after{
+    width: 34px;
+    height: 34px;
+    background-size: 24px;
+  }
   main .c__contents .u__sect.c__advancing .u__content .s_absimg.v_vertical {
     width: 175px;
     height: 350px
@@ -2488,6 +2511,10 @@ main .c__contents .u__sect.c__visitus .u__content .s_imgtxt figure {
 
   main .c__contents .u__sect.c__visitus {
     padding-bottom: 135px
+  }
+  main .c__contents .u__sect.c__visitus .u__content .s_imgtxt .s_info .s_form .u__error{
+    font-size: 14px;
+    line-height: 40px;
   }
 
   main .c__contents .u__sect.c__visitus .u__content .s_imgtxt {

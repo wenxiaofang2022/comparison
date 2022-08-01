@@ -16,9 +16,14 @@
 
 		$this.each(function(){
 		  firstTop = $this.offset().top;
-			var _transform = $this.css("transform");
-			var matrixArr = _transform.split(',');
-			_top = parseInt(matrixArr[5]);
+			var _transform = $this.css("transform"); 
+			if(_transform=='none'){
+				_top = 0;
+			}
+			else{
+				var matrixArr = _transform.split(',');
+				_top = parseInt(matrixArr[5]);
+			}
 		});
 
 		function update(){
@@ -26,15 +31,18 @@
 			var t_y = $(outerDiv).offset().top;
 			$this.each(function(){
 				var $element = $(this);
-				var _transform = $element.css("transform");
-				var matrixArr = _transform.split(',');
 				if((pos_y - t_y < 0) || (pos_y - t_y == 0)){
 					return;
 				}
-
 				if(ypos===0)return;
-				var _left = parseInt(matrixArr[4]);
-
+				var _transform = $element.css("transform");
+				var _matrixArr = _transform.split(',');
+				if(_transform=='none'){
+					var _left = 0;
+				}
+				else{
+					var _left = parseInt(_matrixArr[4]);
+				}
 				var t_top = Math.round(Math.round((_top - (pos_y - t_y)) * ypos));
 				$this.css('transform','translate('+_left+'px,'+t_top+'px)');
 			});
