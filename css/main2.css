@@ -1224,6 +1224,10 @@ main.p__subpages .c__contents .c__imglist .s_imgitem p {
 main.p__subpages .c__contents .c__imglist .s_imgitem .u__btncta a {
     background: #f28077;
     color: #dfd4cb;
+    white-space: nowrap;
+}
+main.p__subpages .c__contents .c__imglist .s_imgitem .u__btncta a span{
+    transform: translateY(2px);
 }
 main.p__subpages .c__contents .c__imgcaption {
     padding: 0 18px;
@@ -1289,7 +1293,7 @@ main.p__subpages .c__contents .c__caseflex .s_caselist .s_caseitem .s_caseicon i
     height: 100%;
 }
 main.p__subpages .c__contents .c__caseflex .s_caselist .s_caseitem .s_casetitle {
-    font-weight: 600;
+    font-family: "Roobert SemiBold";
     font-size: 20px;
     line-height: 25px;
     text-align: center;
@@ -2152,7 +2156,7 @@ main.p__subpages .c__contents .c__subpageintro .s_servicelist .s_serviceitem .s_
         border-radius: 0 0 140px 140px;
     }
     main.p__subpages .c__contents .c__imgcaption.v_maxwidth > div {
-        max-width:842px;
+        /* max-width:842px; */
         margin-left:auto;
         margin-right:auto;
     }
@@ -3127,7 +3131,7 @@ main.p__subpages .c__contents .c__subpageintro .s_servicelist .s_serviceitem .s_
     }
     main.p__subpages .c__contents .c__imglist .s_imgitem {
         height: 643px;
-        border-radius: 100px;
+        /* border-radius: 100px; */
     }
     main.p__subpages .c__contents .c__imglist .s_imgitem p {
         margin-bottom: 78px;
@@ -3138,6 +3142,7 @@ main.p__subpages .c__contents .c__subpageintro .s_servicelist .s_serviceitem .s_
     }
     main.p__subpages .c__contents .c__imgcaption .s_imgcaption{
         max-width: 890px;
+        margin: 0 auto;
     }
     main.p__subpages .c__contents .c__caseflex {
         padding: 0 60px;
@@ -3369,7 +3374,7 @@ main.p__subpages .c__contents .c__subpageintro .s_servicelist .s_serviceitem .s_
     main.p__subpages .c__contents .c__imglist .s_imgitem {
         width: 1320px;
         height: 684px;
-        border-radius: 80px;
+        /* border-radius: 80px; */
         padding: 0 278px;
     }
     main.p__subpages .c__contents .c__imgcaption .s_imgcaption {
