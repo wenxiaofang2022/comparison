@@ -23,38 +23,49 @@
 <link rel="stylesheet" type="text/css" href="./css/swiper-bundle.min.css">
 <link rel="stylesheet" type="text/css" href="./css/main.css?v=1658834117164" />
 <link rel="stylesheet" type="text/css" href="./css/main2.css?v=1658834117164" />
-<!-- <link rel="stylesheet" type="text/css" href="./css/header-footer.css?v=1658834117164" /> -->
+<link rel="stylesheet" type="text/css" href="./css/homepage.css?v=1658834117164" />
 <title>early-title</title>
 <script src="./js/vendor/jquery-3.6.0.min.js?v=1658834117164" type="text/javascript"></script>
 <script src="./js/vendor/modernizr-custom.js?v=1658834117164" type="text/javascript"></script>
 <script src="./js/vendor/jquery.parallax.js?v=1658834117164"></script>
 </head>
-<style type="text/css">
-
-</style>
 <script type="text/javascript">
-    // $(document).ready(function () {
-    //     $('.parallax_target1').parallax(0.1,'.c__futurehealth');
-    //     $('.parallax_target2').parallax(0.2,'.c__futurehealth');
-    //     $('.parallax_target3').parallax(0.1,'.c__specialists');
-    //     $('.parallax_target4').parallax(0.2,'.c__specialists');
-    //     $('.parallax_target5').parallax(0.1,'.c__advancing');
-    //     $('.parallax_target6').parallax(0.2,'.c__advancing');
-    //     $('.parallax_target7').parallax(0.1,'.c__advancing');
-    //     $('.parallax_target8').parallax(0.1,'.c__healthcares');
-    //     $('.parallax_target9').parallax(0.2,'.c__healthcares');
-    //     $('.parallax_target10').parallax(0.1,'.c__healthcares');
-    //     $('.parallax_target11').parallax(0.1,'.c__approach');
-    //     $('.parallax_target12').parallax(0.1,'.c__services');
-    //     $('.parallax_target13').parallax(0.2,'.c__services');
-    // })
+    $(document).ready(function () {
+        //0.1 0.2 0.3 表示速度，可自行修改
+        //parallax_target1 2 3 表示作用元素
+        //c__futurehealth 表示作用元素的父元素
+        $('.parallax_target1').parallax(0.1,'.c__futurehealth');
+        $('.parallax_target2').parallax(0.2,'.c__futurehealth');
+
+        $('.parallax_target3').parallax(0.3,'.c__specialists');
+        $('.parallax_target4').parallax(0.1,'.c__specialists');
+
+        $('.parallax_target5').parallax(0.2,'.c__advancing');
+        $('.parallax_target6').parallax(0.3,'.c__advancing');
+        $('.parallax_target7').parallax(0.1,'.c__advancing');
+        $('.parallax_target8').parallax(0.2,'.c__advancing');
+        $('.parallax_target9').parallax(0.3,'.c__advancing');
+        $('.parallax_target10').parallax(0.1,'.c__advancing');
+        $('.parallax_target11').parallax(0.2,'.c__advancing');
+        $('.parallax_target12').parallax(0.3,'.c__advancing');
+        $('.parallax_target13').parallax(0.1,'.c__advancing');
+        $('.parallax_target14').parallax(0.2,'.c__advancing');
+        $('.parallax_target15').parallax(0.3,'.c__advancing');
+        $('.parallax_target16').parallax(0.1,'.c__advancing');
+
+        $('.parallax_target17').parallax(0.2,'.c__approach');
+
+        $('.parallax_target18').parallax(0.3,'.c__services');
+        $('.parallax_target19').parallax(0.1,'.c__services');
+        $('.parallax_target20').parallax(0.2,'.c__services');
+    })
 </script>
 
 <body>
     <header id="header" role="banner">
         <section class="c__header">
             <div class="s_logo">
-                <a href="./"> 
+                <a href="./">
                     <figure><img src="img/logo-early.svg"></figure>
                 </a>
             </div>
@@ -78,38 +89,52 @@
                     <section class="u__sect c__futurehealth">
                         <div>
                             <div class="u__content">
-                                <div class="u__shapelinear v_flip v_shape parallax_target2"></div>
-                                <figure class="u__img parallax_target1">
+                                <div class="s_shapes">
+                                  <div class="u__shapelinear half_transparent v_flip v_shape parallax_target1"></div>
+                                </div>
+                                <figure class="u__img parallax_target2">
                                     <img src="./img/hero-landing-v2.jpg"/>
                                 </figure>
-                                <h1 class="s_title">
-                                    <span>Future of</span>
-                                    <span>Health</span>
-                                </h1>
-                                <div class="s_desc">
-                                    <p>The new standard in<br/>preventive care, with you at the centre</p>
-                                    <!-- use 1 <p> and then use <br> to break into a line break, only 1 <br> -->
-                                    <!-- this is different from other, only for this tagline we want it to always appear in this manner -->
-                                    <!-- <p>The new standard in</p>
-                                    <p>preventive care, with you</p>
-                                    <p>at the centre</p> -->
+                                <div class="s_titdesc">
+                                  <img src="./img/hero-landing-v2.jpg"/>
+                                  <div class="s_centerbox">
+                                    <h3 class="s_title">
+                                      <div>
+                                          <span>Future of</span>
+                                      </div>
+                                      <div>
+                                          <span>Health</span>
+                                      </div>
+                                    </h3>
+                                    <div class="s_desc">
+                                        <p>The new standard in preventive care, with you at the centre</p>
+                                    </div>
+                                  </div>
                                 </div>
-                                <span class="u__arrow v_red"></span>
-                                <!-- only the early should be strong -->
                                 <p class="s_detail"><strong>early</strong> Medical Centre brings you a brand new
                                     experience of preventive care. Customised to your needs, backed by the latest in
-                                    science and health technology, led by doctors and specialists.</p>
+                                    science and health technology, led by doctors and specialists.<br><br/>
+                                    <strong>Opening soon in August 2022. <a>Get notified early.</a></strong>
+                                </p>
+                                <span class="u__arrow v_red"></span>
                             </div>
                         </div>
                     </section>
                     <section class="u__sect c__specialists">
                         <div>
                             <div class="u__content">
-                                <div class="u__shapelinear v_shape parallax_target3"></div>
-                                <h2 class="s_title">
-                                    <span>Specialist Programmes</span>
-                                    <span>combining</span>
-                                </h2>
+                                <div class="s_shapes">
+                                  <div class="u__shapelinear half_transparent v_shape parallax_target3"></div>
+                                </div>
+                                <h3 class="s_title">
+                                    <div>
+                                        <span>Specialist<br/>Programmes</span>
+                                        <span>Specialist Programmes</span>
+                                    </div>
+                                    <div>
+                                        <span>combining</span>
+                                    </div>
+                                </h3>
                                 <div class="s_programmesdiagram">
                                     <div>
                                         <h3>Modern</h3>
@@ -160,18 +185,62 @@
                     <section class="u__sect c__advancing">
                         <div>
                             <div class="u__content">
-                                <div class="u__shapelinear v_shape parallax_target5"></div>
-                                <div class="u__shapelinear v_shape parallax_target6"></div>
-                                <h2 class="s_title">
-                                    <span>Advancing Health</span>
-                                    <span>with</span>
-                                    <span>Advanced Technology</span>
-                                </h2>
-                                <div class="s_desc">
-                                    <p>Take advantage of the latest advances in healthcare technology from our network of partners such as MiRXES and GE Healthcare.</p>
+                                <div class="s_shapes">
+                                  <div class="u__shapelinear half_transparent v_shape parallax_target5"></div>
+                                  <div class="u__shapelinear half_transparent v_shape parallax_target6"></div>
+                                  <!-- 以下是 原来的 c__healthcares内容-->
+                                  <div class="u__shapelinear half_transparent v_shape parallax_target7"></div>
+                                  <div class="u__shapelinear half_transparent v_flip v_shape parallax_target8"></div>
+                                  <div class="u__shapelinear half_transparent v_shape parallax_target9"></div>
+                                  <div class="s_absimg parallax_target10">
+                                      <figure>
+                                          <a href="#"><img src="./img/healthcare-1.jpg"></a>
+                                      </figure>
+                                  </div>
+                                  <div class="s_absimg parallax_target11">
+                                      <figure>
+                                          <a href="#"><img src="./img/healthcare-2.jpg"></a>
+                                      </figure>
+                                  </div>
+                                  <div class="s_absimg parallax_target12">
+                                      <figure>
+                                          <a href="#"><img src="./img/healthcare-3.jpg"></a>
+                                      </figure>
+                                  </div>
+                                  <div class="s_absimg v_vertical parallax_target13">
+                                      <figure>
+                                          <a href="#"><img src="./img/healthcare-4.jpg"></a>
+                                      </figure>
+                                  </div>
+                                  <div class="s_absimg parallax_target14">
+                                      <figure>
+                                          <a href="#"><img src="./img/healthcare-5.jpg"></a>
+                                      </figure>
+                                  </div>
+                                  <div class="s_absimg v_vertical parallax_target15">
+                                      <figure>
+                                          <a href="#"><img src="./img/healthcare-6.jpg"></a>
+                                      </figure>
+                                  </div>
                                 </div>
-                                <article class="s_image v_shapewave parallax_target7">
-                                    <figure class="parallax_target5">
+                                <!-- 原来的 c__healthcares内容结束 -->
+                                <h3 class="s_title">
+                                    <div>
+                                        <span>Advancing Health</span>
+                                    </div>
+                                    <div>
+                                        <span>with</span>
+                                    </div>
+                                    <div>
+                                        <span>Advanced<br/>Technology</span>
+                                        <span>Advanced Technology</span>
+                                    </div>
+                                </h3>
+                                <div class="s_desc">
+                                    <p>Take advantage of the latest advances in healthcare technology from our partnership with MiRXES and the provision of GE Healthcare's diagnostic equipment.</p>
+                                </div>
+                                <article class="s_image v_shapewave parallax_target16">
+                                    <figure>
                                         <img src="img/shape-wave.svg">
                                     </figure>
                                 </article>
@@ -182,92 +251,45 @@
                                     <div class="s_logo">
                                         <figure>
                                             <a href="https://mirxes.com/" target="_blank"><img
-                                                    src="./img/logo-miaxes.svg"></a>
+                                                    src="./img/logo-mirxes-new.svg"></a>
                                         </figure>
                                         <figure>
                                             <a href="https://www.gehealthcare.com/" target="_blank"><img
-                                                    src="./img/logo-healthcare.svg"></a>
+                                                    src="./img/logo-ge.svg"></a>
                                         </figure>
                                     </div>
                                 </article>
                                 <span class="u__arrow v_red"></span>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="u__sect c__healthcares">
-                        <div>
-                            <div class="u__content">
-                                <div class="u__shapelinear v_shape parallax_target8"></div>
-                                <div class="u__shapelinear v_flip v_shape parallax_target9"></div>
-                                <div class="u__shapelinear v_shape parallax_target10"></div>
-                                <div class="s_absimg parallax_target8">
-                                    <figure>
-                                        <a href="#"><img src="./img/healthcare-1.jpg"></a>
-                                        <span>+</span>
-                                    </figure>
-                                </div>
-                                <div class="s_absimg parallax_target9">
-                                    <figure>
-                                        <a href="#"><img src="./img/healthcare-2.jpg"></a>
-                                        <span>+</span>
-                                    </figure>
-                                </div>
-                                <div class="s_absimg parallax_target10">
-                                    <figure>
-                                        <!-- for this portion, we will not put a <span>+</span>, we will just put the span inside the <a> tag, if not the + is not clickable -->
-                                        <!-- then we use the css span:before, span:after to draw a line width:10px; height:1px; and width:1px; height:10px -->
-                                        <a href="#"><img src="./img/healthcare-3.jpg"></a>
-                                        <span>+</span>
-                                    </figure>
-                                </div>
-                                <div class="s_absimg parallax_target8">
-                                    <figure>
-                                        <a href="#"><img src="./img/healthcare-4.jpg"></a>
-                                        <span>+</span>
-                                    </figure>
-                                </div>
-                                <div class="s_absimg parallax_target9">
-                                    <figure>
-                                        <a href="#"><img src="./img/healthcare-5.jpg"></a>
-                                        <span>+</span>
-                                    </figure>
-                                </div>
-                                <div class="s_absimg parallax_target10">
-                                    <figure>
-                                        <a href="#"><img src="./img/healthcare-6.jpg"></a>
-                                        <span>+</span>
-                                    </figure>
-                                </div>
-                                <h2 class="s_title">
-                                    <span>Healthcare</span>
-                                    <span>meets</span>
-                                    <span>Hospitality</span>
-                                </h2>
-                                <div class="s_detail">
+                                <div class="s_healthcaresbox">
+                                  <h3 class="s_title">
+                                    <div>
+                                      <span>Healthcare</span>
+                                    </div>
+                                    <div>
+                                      <span>meets</span>
+                                    </div>
+                                    <div>
+                                      <span>Hospitality</span>
+                                    </div>
+                                  </h3>
+                                  <div class="s_detail">
                                     <p>Conceptualised by an award-winning team of spatial and user experience designers, early Medical Centre aims to raise the level of service in healthcare. Respectful, guided, and highly personalised, in a space that feels safe and reassuring.</p>
-                                    <!-- <p>Conceptualised by an award-winning team of spatial</p>
-                                    <p>and user experience designers, early Medical Centre</p>
-                                    <p>aims to raise the level of service in healthcare.</p>
-                                    <p>Respectful, guided, and highly personalised,</p>
-                                    <p>in a space that feels safe and reassuring.</p> -->
+                                  </div>
+                                  <span class="u__arrow v_red"></span>
                                 </div>
-                                <span class="u__arrow v_red"></span>
                             </div>
                         </div>
                     </section>
                     <section class="u__sect c__approach">
                         <div>
                             <div class="u__content">
-                                <figure class="u__bg">
-                                    <img src="./img/shape-programme-allied.svg"/>
-                                    <img src="./img/shape-programme-allied.svg"/>
-                                    <img src="./img/shape-programme-allied.svg"/>
-                                    <img src="./img/shape-programme-allied.svg"/>
-                                </figure>
-                                <div class="u__shapelinear v_shape parallax_target11"></div>
-                                <h2 class="s_title">
+                                <figure class="u__bg"></figure>
+                                <div class="s_shapes">
+                                  <div class="u__shapelinear half_transparent v_shape parallax_target17"></div>
+                                </div>
+                                <h3 class="s_title">
                                     <span>Our approach</span>
-                                </h2>
+                                </h3>
                                 <div class="s_desc">
                                     <p>Our simple and comprehensive 3-step approach is designed to bring you from healthy to healthier.</p>
                                 </div>
@@ -314,9 +336,6 @@
                                         <span></span>
                                     </div>
                                 </div>
-                                <div class="u__btncta">
-                                    <a href="#">Experience early<span></span></a>
-                                </div>
                                 <span class="u__arrow"></span>
                             </div>
                         </div>
@@ -324,15 +343,17 @@
                     <section class="u__sect c__services">
                         <div>
                             <div class="u__content">
-                                <div class="u__shapelinear v_shape parallax_target12"></div>
-                                <div class="u__shapelinear v_shape parallax_target13"></div>
-                                <h2 class="s_title">
+                                <div class="s_shapes">
+                                  <div class="u__shapelinear half_transparent v_shape parallax_target18"></div>
+                                  <div class="u__shapelinear half_transparent v_shape parallax_target19"></div>
+                                </div>
+                                <h3 class="s_title">
                                     <span>Our services</span>
-                                </h2>
+                                </h3>
                                 <div class="s_desc">
                                     <p>Health services covering all your lifestyle needs.</p>
                                 </div>
-                                <div class="s_imglist parallax_target12">
+                                <div class="s_imglist parallax_target20">
                                     <figure>
                                         <img src="./img/our-services-1.jpg">
                                     </figure>
@@ -351,28 +372,26 @@
                                 </div>
                                 <div class="s_detail">
                                     <p>We provide preventive care, doctor-led lifestyle programmes, specialist referrals and primary care services. Our dedicated team empowers you with resources to help you make better informed decisions along your health journey.</p>
-                                    <!-- <p>We provide preventive care, doctor-led lifestyle programmes,</p>
-                                    <p>specialist referrals and primary care services. Our dedicated team</p>
-                                    <p>empowers you with resources to help you make better informed</p>
-                                    <p>decisions along your health journey.</p> -->
                                 </div>
-                                <div class="u__btncta">
+                                <!-- <div class="u__btncta">
                                     <a href="#">Find out more<span></span></a>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </section>
                     <section class="u__sect c__visitus c__form">
                         <div>
                             <div class="u__content">
-                                <h2 class="s_title">
+                                <h3 class="s_title">
                                     <span>Visit us</span>
-                                </h2>
+                                </h3>
                                 <div class="s_imgtxt">
                                     <article class="s_info">
-                                        <h4 class="s_infotit">Experience early</h4>
-                                        <p class="s_detail">Leave us your details and we’ll be in touch with latest
-                                            events and tour dates.</p>
+                                        <div class="s_titdetail">
+                                          <h4 class="s_infotit">Experience early</h4>
+                                          <p class="s_detail">Leave us your details and we’ll be in touch with latest
+                                              events and tour dates.</p>
+                                        </div>
                                         <article class="s_form">
                                             <article>
                                                 <fieldset>
@@ -401,9 +420,6 @@
                                             <article class="s_ctas">
                                                 <div class="u__btncta">
                                                     <a href="#" class="js_signup">Sign up<span></span></a>
-                                                </div>
-                                                <div class="u__btncta v_outline">
-                                                    <a href="#">Learn more<span></span></a>
                                                 </div>
                                             </article>
                                         </article>
@@ -453,7 +469,8 @@
                                 <div id="mce-responses" class="clear foot">
                                     <div class="response" id="mce-error-response" style="display:none"></div>
                                     <div class="response" id="mce-success-response" style="display:none"></div>
-                                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                </div>    
+                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                                 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_f37b76da960204d88ac33dadc_770ec79667" tabindex="-1" value=""></div>
                                 <div class="optionalParent">
                                     <div class="clear foot u__btncta v_outline">
@@ -463,7 +480,8 @@
                             </div>
                         </form>
                     </div>
-                    <script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></scrip><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                    <script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+                    <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
                     <!--End mc_embed_signup-->
                 </article>
             </section>

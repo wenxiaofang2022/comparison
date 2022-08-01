@@ -1,0 +1,2532 @@
+main .c__contents {
+  min-width: 330px
+}
+
+main .c__contents .u__sect {
+  padding: 60px 18px 130px;
+  overflow-x: hidden
+}
+
+main .c__contents .u__sect .u__content {
+  max-width: 1440px;
+  margin: 0 auto
+}
+
+main .c__contents .u__sect.c__futurehealth {
+  background: #ddd5cc;
+  border-radius: 0 0 80px 80px;
+  padding-bottom: 136px
+}
+
+main .c__contents .u__sect.c__futurehealth .u__content {
+  position: relative
+}
+
+main .c__contents .u__sect.c__futurehealth .u__content .u__shapelinear {
+  width: 668px;
+  height: 305px;
+  left: -36px;
+  top: 114px
+}
+
+main .c__contents .u__sect.c__futurehealth .u__content .u__img {
+  width: 100%;
+  border-radius: 200px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0
+}
+
+main .c__contents .u__sect.c__futurehealth .u__content .s_titdesc {
+  border-radius: 200px;
+  overflow: hidden;
+  position: relative
+}
+
+main .c__contents .u__sect.c__futurehealth .u__content .s_titdesc img {
+  width: 100%;
+  visibility: hidden
+}
+
+main .c__contents .u__sect.c__futurehealth .u__content .s_titdesc .s_centerbox {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%)
+}
+
+main .c__contents .u__sect.c__futurehealth .u__content .s_titdesc .s_centerbox .s_title {
+  position: relative
+}
+
+main .c__contents .u__sect.c__futurehealth .u__content .s_titdesc .s_centerbox .s_title div {
+  text-align: center;
+  margin: 0 auto;
+  height: 48px;
+  margin-top: 7px;
+  width: 150px;
+  border: 1.8px solid #363434;
+  border-radius: 60px
+}
+
+main .c__contents .u__sect.c__futurehealth .u__content .s_titdesc .s_centerbox .s_title div:nth-child(1) {
+  margin-top: 0;
+  width: 191px
+}
+
+main .c__contents .u__sect.c__futurehealth .u__content .s_titdesc .s_centerbox .s_title div span {
+  font-family: 'Roobert Light';
+  font-size: 35px;
+  line-height: 42px
+}
+
+main .c__contents .u__sect.c__futurehealth .u__content .s_titdesc .s_centerbox .s_desc {
+  position: relative;
+  width: 244px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 5px
+}
+
+main .c__contents .u__sect.c__futurehealth .u__content .s_titdesc .s_centerbox .s_desc p {
+  font-family: 'Roobert Medium';
+  font-size: 16px;
+  line-height: 20px
+}
+
+main .c__contents .u__sect.c__futurehealth .u__content .s_detail {
+  position: relative;
+  max-width: 339px;
+  margin: 0 auto;
+  margin-top: 48px;
+  text-align: center
+}
+
+main .c__contents .u__sect.c__futurehealth .u__content .s_detail p {
+  font-family: 'Roobert Regular';
+  font-size: 14px;
+  line-height: 20px
+}
+
+main .c__contents .u__sect.c__specialists {
+  background: #c2b7ae;
+  border-radius: 0 0 80px 80px;
+  padding-bottom: 101px;
+  padding-top: 70px
+}
+
+main .c__contents .u__sect.c__specialists .u__content {
+  position: relative;
+  padding-top: 94px
+}
+
+main .c__contents .u__sect.c__specialists .u__content .u__shapelinear {
+  width: 975px;
+  height: 446px;
+  left: auto;
+  right: 9px
+}
+
+main .c__contents .u__sect.c__specialists .u__content .s_title {
+  position: relative
+}
+
+main .c__contents .u__sect.c__specialists .u__content .s_title div {
+  text-align: center;
+  margin: 0 auto;
+  height: 48px;
+  margin-top: 7px;
+  width: 214px;
+  border: 1.8px solid #363434;
+  border-radius: 60px
+}
+
+main .c__contents .u__sect.c__specialists .u__content .s_title div:nth-child(1) {
+  margin-top: 0;
+  width: 250px;
+  height: 84px
+}
+
+main .c__contents .u__sect.c__specialists .u__content .s_title div:nth-child(1) span:nth-child(2) {
+  display: none
+}
+
+main .c__contents .u__sect.c__specialists .u__content .s_title div span {
+  font-family: 'Roobert Light';
+  font-size: 35px;
+  line-height: 35px
+}
+
+main .c__contents .u__sect.c__specialists .u__content .s_programbox {
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+  top: 244px
+}
+
+main .c__contents .u__sect.c__specialists .u__content .s_programmesdiagram {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  left: 0;
+  max-width: 731px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 39px
+}
+
+main .c__contents .u__sect.c__specialists .u__content .s_programmesdiagram div {
+  width: 55.59%
+}
+
+main .c__contents .u__sect.c__specialists .u__content .s_programmesdiagram div h3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  font-family: 'Roobert Light';
+  font-size: 28px;
+  line-height: 34px
+}
+
+main .c__contents .u__sect.c__specialists .u__content .s_programmesdiagram div figure {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative
+}
+
+main .c__contents .u__sect.c__specialists .u__content .s_programmesdiagram div figure img {
+  position: absolute;
+  top: 0;
+  left: 0
+}
+
+main .c__contents .u__sect.c__specialists .u__content .s_programmesdiagram div:nth-child(1) {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  height: 0;
+  padding-bottom: 83.3%
+}
+
+main .c__contents .u__sect.c__specialists .u__content .s_programmesdiagram div:nth-child(1) h3 {
+  top: 18.5%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%)
+}
+
+main .c__contents .u__sect.c__specialists .u__content .s_programmesdiagram div:nth-child(2) h3 {
+  top: 55.6%;
+  left: -4%
+}
+
+main .c__contents .u__sect.c__specialists .u__content .s_programmesdiagram div:not(:first-child) {
+  position: absolute;
+  bottom: 0;
+  left: 10px
+}
+
+main .c__contents .u__sect.c__specialists .u__content .s_programmesdiagram div:nth-child(3) {
+  left: auto;
+  right: 10px
+}
+
+main .c__contents .u__sect.c__specialists .u__content .s_programmesdiagram div:nth-child(3) h3 {
+  top: 45.1%;
+  left: 32.5%
+}
+
+main .c__contents .u__sect.c__specialists .u__content .s_programmesdiagram .s_union {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-46%, -32%);
+  -ms-transform: translate(-46%, -32%);
+  transform: translate(-46%, -32%);
+  width: 13.8%;
+  height: 24.1%;
+  width: 44px;
+  height: 68px;
+  -webkit-transform: translate(-40%, -20%);
+  -ms-transform: translate(-40%, -20%);
+  transform: translate(-40%, -20%)
+}
+
+main .c__contents .u__sect.c__specialists .u__content .s_detail {
+  font-size: 14px;
+  line-height: 20px;
+  max-width: 303px;
+  margin: 0 auto;
+  margin-top: 58px;
+  text-align: center
+}
+
+main .c__contents .u__sect.c__advancing {
+  background: #ddd5cc;
+  border-radius: 0;
+  padding-top: 70px;
+  padding-bottom: 742px;
+  border-radius: 0 0 80px 80px
+}
+
+main .c__contents .u__sect.c__advancing .u__content {
+  position: relative;
+  padding-top: 105px
+}
+
+main .c__contents .u__sect.c__advancing .u__content .u__shapelinear:nth-child(1) {
+  width: 918px;
+  height: 364px;
+  left: auto;
+  right: -18px;
+  top: 282px
+}
+
+main .c__contents .u__sect.c__advancing .u__content .u__shapelinear:nth-child(2) {
+  width: 839px;
+  height: 333px;
+  left: auto;
+  right: calc(50vw - 36px);
+  top: 630px
+}
+
+main .c__contents .u__sect.c__advancing .u__content .u__shapelinear:nth-child(3) {
+  width: 1006px;
+  height: 399px;
+  top: 1047px;
+  left: auto;
+  right: -10px
+}
+
+main .c__contents .u__sect.c__advancing .u__content .u__shapelinear:nth-child(4) {
+  display: none
+}
+
+main .c__contents .u__sect.c__advancing .u__content .u__shapelinear:nth-child(5) {
+  width: 1052px;
+  height: 418px;
+  top: 1903px;
+  left: auto;
+  right: -74px
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_absimg {
+  position: absolute;
+  width: 280px;
+  height: 140px;
+  border-radius: 70px;
+  overflow: hidden
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_absimg figure {
+  width: 100%;
+  height: 100%
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_absimg figure a {
+  width: 100%;
+  height: 100%;
+  display: block
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_absimg figure a img {
+  width: 100%;
+  height: 100%
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_absimg.v_vertical {
+  width: 140px;
+  height: 280px
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_absimg.v_vertical figure {
+  width: 100%;
+  height: 100%
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_absimg.v_vertical figure a {
+  width: 100%;
+  height: 100%;
+  display: block
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_absimg.v_vertical figure a img {
+  width: 100%;
+  height: 100%
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(6) {
+  top: 1019px;
+  left: auto;
+  right: 45px
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(7) {
+  top: 1136px;
+  left: auto;
+  right: -73px
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(8) {
+  top: 1701px;
+  left: -75px
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(9) {
+  top: 1701px;
+  left: auto;
+  right: 0
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(10) {
+  top: 1864px;
+  left: -75px
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(11) {
+  top: 1964px;
+  left: 117px
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_title {
+  position: relative
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_title div {
+  text-align: center;
+  margin: 0 auto;
+  height: 48px;
+  margin-top: 7px;
+  width: 116px;
+  border: 1.8px solid #363434;
+  border-radius: 60px
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_title div:nth-child(1) {
+  margin-top: 0;
+  width: 324px
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_title div:nth-child(3) {
+  width: 233px;
+  height: 84px
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_title div:nth-child(3) span:nth-child(2) {
+  display: none
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_title div span {
+  font-family: 'Roobert Light';
+  font-size: 35px;
+  line-height: 35px
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_desc {
+  position: relative;
+  max-width: 338px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 64px
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_desc p {
+  font-family: 'Roobert Regular';
+  font-size: 20px;
+  line-height: 25px
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_image {
+  width: calc(100% + 36px);
+  position: absolute;
+  left: -18px;
+  top: 534px
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_copy {
+  position: relative;
+  margin-top: 221px
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_copy .s_detail {
+  max-width: 289px;
+  margin: 0 auto
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_copy .s_detail p {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'Roobert Regular'
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_copy .s_logo {
+  text-align: center;
+  margin-top: 40px
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_copy .s_logo figure {
+  display: inline-block;
+  vertical-align: middle
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_copy .s_logo figure:nth-child(1) {
+  width: 102px;
+  margin-right: 79px
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_copy .s_logo figure:nth-child(2) {
+  width: 43px
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox {
+  position: relative;
+  margin-top: 400px
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .s_title {
+  position: relative
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .s_title div {
+  text-align: center;
+  margin: 0 auto;
+  height: 48px;
+  margin-top: 7px;
+  width: 147px;
+  border: 1.8px solid #363434;
+  border-radius: 60px
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .s_title div:nth-child(1) {
+  margin-top: 0;
+  width: 219px
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .s_title div:nth-child(3) {
+  width: 213px
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .s_title div span {
+  font-family: 'Roobert Light';
+  font-size: 35px;
+  line-height: 35px
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .s_detail {
+  max-width: 291px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 64px
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .s_detail p {
+  font-size: 14px;
+  line-height: 20px
+}
+
+main .c__contents .u__sect.c__approach {
+  background: #c2b7ae;
+  border-radius: 0 0 80px 80px;
+  padding-top: 70px;
+  padding-bottom: 101px
+}
+
+main .c__contents .u__sect.c__approach .u__content {
+  position: relative;
+  padding-top: 105px
+}
+
+main .c__contents .u__sect.c__approach .u__content .u__bg {
+  width: 776px;
+  height: 776px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  top: 375px;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: -1;
+  background: url(../img/grid.svg) top center
+}
+
+main .c__contents .u__sect.c__approach .u__content .u__shapelinear {
+  width: 2099px;
+  height: 834px;
+  left: auto;
+  right: -18px;
+  top: 316px;
+  border-radius: 408px
+}
+
+main .c__contents .u__sect.c__approach .u__content .s_title {
+  position: relative
+}
+
+main .c__contents .u__sect.c__approach .u__content .s_title span {
+  font-family: 'Roobert Light';
+  font-size: 35px;
+  line-height: 42px;
+  border: 1.8px solid #363434;
+  border-radius: 60px;
+  width: 266px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  height: 48px
+}
+
+main .c__contents .u__sect.c__approach .u__content .s_desc {
+  max-width: 297px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 44px
+}
+
+main .c__contents .u__sect.c__approach .u__content .s_desc p {
+  font-size: 20px;
+  line-height: 25px
+}
+
+main .c__contents .u__sect.c__approach .u__content .s_flexitems {
+  position: relative;
+  margin-top: 79px
+}
+
+main .c__contents .u__sect.c__approach .u__content .s_flexitems .s_items {
+  display: block
+}
+
+main .c__contents .u__sect.c__approach .u__content .s_flexitems .s_items .s_item {
+  font-size: 14px;
+  line-height: 20px;
+  width: 338px;
+  margin: 0 auto;
+  text-align: center
+}
+
+main .c__contents .u__sect.c__approach .u__content .s_flexitems .s_items .s_item:not(:first-child) {
+  margin-top: 27px
+}
+
+main .c__contents .u__sect.c__approach .u__content .s_flexitems .s_items .s_item:not(:last-child):after {
+  content: '';
+  display: block;
+  background: url(../img/arrow_approachdown.svg) top center;
+  height: 49px;
+  width: 19px;
+  background-size: 19px 49px;
+  margin: 0 auto;
+  margin-top: 44px
+}
+
+main .c__contents .u__sect.c__approach .u__content .s_flexitems .s_items .s_item .s_index {
+  font-size: 70px;
+  line-height: 84px
+}
+
+main .c__contents .u__sect.c__approach .u__content .s_flexitems .s_items .s_item .s_feature {
+  height: 69px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center
+}
+
+main .c__contents .u__sect.c__approach .u__content .s_flexitems .s_items .s_item .s_feature h3 {
+  width: 100%;
+  font-size: 30px;
+  line-height: 36px
+}
+
+main .c__contents .u__sect.c__approach .u__content .s_flexitems .s_items .s_item article p {
+  font-size: 14px;
+  line-height: 20px
+}
+
+main .c__contents .u__sect.c__approach .u__content .s_flexitems .s_arrows {
+  display: none
+}
+
+main .c__contents .u__sect.c__services {
+  background: #ddd5cc;
+  border-radius: 0 0 80px 80px;
+  padding-top: 70px;
+  padding-bottom: 101px
+}
+
+main .c__contents .u__sect.c__services .u__content {
+  position: relative;
+  padding-top: 105px
+}
+
+main .c__contents .u__sect.c__services .u__content .u__shapelinear:nth-child(1) {
+  width: 838px;
+  height: 330px;
+  top: 295px;
+  left: auto;
+  right: -36px
+}
+
+main .c__contents .u__sect.c__services .u__content .u__shapelinear:nth-child(2) {
+  display: none
+}
+
+main .c__contents .u__sect.c__services .u__content .s_imglist {
+  position: absolute;
+  top: 283px;
+  width: 486px;
+  height: 211px;
+  margin-left: calc(50% - 243px)
+}
+
+main .c__contents .u__sect.c__services .u__content .s_imglist figure {
+  width: 132px;
+  height: 132px;
+  border-radius: 50%;
+  display: block;
+  overflow: hidden;
+  position: absolute
+}
+
+main .c__contents .u__sect.c__services .u__content .s_imglist figure:nth-child(1) {
+  left: 0;
+  bottom: 0
+}
+
+main .c__contents .u__sect.c__services .u__content .s_imglist figure:nth-child(2) {
+  left: 85px;
+  top: 0
+}
+
+main .c__contents .u__sect.c__services .u__content .s_imglist figure:nth-child(3) {
+  left: 177px;
+  bottom: 0
+}
+
+main .c__contents .u__sect.c__services .u__content .s_imglist figure:nth-child(4) {
+  left: 263px;
+  top: 0
+}
+
+main .c__contents .u__sect.c__services .u__content .s_imglist figure:nth-child(5) {
+  right: 0;
+  bottom: 0
+}
+
+main .c__contents .u__sect.c__services .u__content .s_title {
+  position: relative
+}
+
+main .c__contents .u__sect.c__services .u__content .s_title span {
+  font-family: 'Roobert Light';
+  font-size: 35px;
+  line-height: 42px;
+  border: 1.8px solid #363434;
+  border-radius: 60px;
+  width: 243px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  height: 48px
+}
+
+main .c__contents .u__sect.c__services .u__content .s_desc {
+  position: relative;
+  max-width: 339px;
+  margin: 0 auto;
+  margin-top: 44px;
+  text-align: center
+}
+
+main .c__contents .u__sect.c__services .u__content .s_desc p {
+  font-size: 20px;
+  line-height: 25px
+}
+
+main .c__contents .u__sect.c__services .u__content .s_detail {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 308px;
+  max-width: 319px;
+  text-align: center
+}
+
+main .c__contents .u__sect.c__services .u__content .s_detail p {
+  font-size: 14px;
+  line-height: 20px
+}
+
+main .c__contents .u__sect.c__visitus {
+  background: #c2b7ae;
+  border-radius: 0;
+  padding-top: 70px;
+  padding-bottom: 105px
+}
+
+main .c__contents .u__sect.c__visitus .u__content {
+  position: relative;
+  padding-top: 105px
+}
+
+main .c__contents .u__sect.c__visitus .u__content .s_title {
+  position: relative
+}
+
+main .c__contents .u__sect.c__visitus .u__content .s_title span {
+  font-family: 'Roobert Light';
+  font-size: 35px;
+  line-height: 42px;
+  border: 1.8px solid #363434;
+  border-radius: 60px;
+  width: 165px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  height: 48px
+}
+
+main .c__contents .u__sect.c__visitus .u__content .s_imgtxt {
+  margin-top: 42px;
+  position: relative
+}
+
+main .c__contents .u__sect.c__visitus .u__content .s_imgtxt .s_info {
+  margin: 0 auto
+}
+
+main .c__contents .u__sect.c__visitus .u__content .s_imgtxt .s_info .s_infotit {
+  font-size: 25px;
+  line-height: 32px;
+  font-family: 'Roobert Medium';
+  text-align: center
+}
+
+main .c__contents .u__sect.c__visitus .u__content .s_imgtxt .s_info .s_detail {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  max-width: 303px;
+  margin: 0 auto;
+  margin-top: 18px
+}
+
+main .c__contents .u__sect.c__visitus .u__content .s_imgtxt .s_info .s_form {
+  margin-top: 260px
+}
+
+main .c__contents .u__sect.c__visitus .u__content .s_imgtxt .s_info .s_form .s_ctas .u__btncta a {
+  background: #f28077;
+  color: #dfd4cb
+}
+
+main .c__contents .u__sect.c__visitus .u__content .s_imgtxt figure {
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  overflow: hidden;
+  top: 126px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%)
+}
+
+@media only screen and (min-width:668px) {
+  main .c__contents .u__sect {
+    padding: 60px 28px 130px
+  }
+
+  main .c__contents .u__sect+.u__sect {
+    margin-top: -140px;
+    padding-top: 140px
+  }
+
+  main .c__contents .u__sect.c__futurehealth {
+    padding-bottom: 140px;
+    border-radius: 0 0 140px 140px
+  }
+
+  main .c__contents .u__sect.c__futurehealth .u__content .u__img {
+    border-radius: 300px
+  }
+
+  main .c__contents .u__sect.c__futurehealth .u__content .u__shapelinear {
+    width: 1180px;
+    height: 468px;
+    top: 201px;
+    left: -61px;
+    opacity: 1
+  }
+
+  main .c__contents .u__sect.c__futurehealth .u__content .s_titdesc {
+    border-radius: 300px
+  }
+
+  main .c__contents .u__sect.c__futurehealth .u__content .s_titdesc .s_centerbox .s_title div {
+    height: 64px;
+    border: 3px solid #363434;
+    border-radius: 80px;
+    width: 203px
+  }
+
+  main .c__contents .u__sect.c__futurehealth .u__content .s_titdesc .s_centerbox .s_title div:nth-child(1) {
+    width: 262px
+  }
+
+  main .c__contents .u__sect.c__futurehealth .u__content .s_titdesc .s_centerbox .s_title div span {
+    font-size: 50px;
+    line-height: 50px
+  }
+
+  main .c__contents .u__sect.c__futurehealth .u__content .s_titdesc .s_centerbox .s_desc {
+    width: 403px;
+    margin-top: 41px
+  }
+
+  main .c__contents .u__sect.c__futurehealth .u__content .s_titdesc .s_centerbox .s_desc p {
+    font-size: 23px;
+    line-height: 32px
+  }
+
+  main .c__contents .u__sect.c__futurehealth .u__content .s_detail {
+    font-size: 18px;
+    line-height: 27px;
+    max-width: 547px;
+    margin: 0 auto;
+    margin-top: 32px
+  }
+
+  main .c__contents .u__sect.c__futurehealth .u__content .u__arrow {
+    margin-top: 63px
+  }
+
+  main .c__contents .u__sect.c__specialists {
+    border-radius: 0 0 140px 140px;
+    padding-bottom: 106px
+  }
+
+  main .c__contents .u__sect.c__specialists .u__content {
+    padding-top: 105px
+  }
+
+  main .c__contents .u__sect.c__specialists .u__content .u__shapelinear {
+    width: 1813px;
+    height: 830px;
+    left: auto;
+    right: -28px;
+    top: 136px
+  }
+
+  main .c__contents .u__sect.c__specialists .u__content .u__shapelinear:before {
+    border-radius: 415px
+  }
+
+  main .c__contents .u__sect.c__specialists .u__content .s_title div {
+    height: 64px;
+    border: 3px solid #363434;
+    border-radius: 80px;
+    width: 305px
+  }
+
+  main .c__contents .u__sect.c__specialists .u__content .s_title div:nth-child(1) {
+    width: 572px;
+    height: 64px
+  }
+
+  main .c__contents .u__sect.c__specialists .u__content .s_title div:nth-child(1) span:nth-child(1) {
+    display: none
+  }
+
+  main .c__contents .u__sect.c__specialists .u__content .s_title div:nth-child(1) span:nth-child(2) {
+    display: inline
+  }
+
+  main .c__contents .u__sect.c__specialists .u__content .s_title div span {
+    font-size: 50px;
+    line-height: 50px
+  }
+
+  main .c__contents .u__sect.c__specialists .u__content .s_programmesdiagram {
+    margin-top: 42px
+  }
+
+  main .c__contents .u__sect.c__specialists .u__content .s_programmesdiagram div h3 {
+    font-size: 52px;
+    line-height: 62px
+  }
+
+  main .c__contents .u__sect.c__specialists .u__content .s_programmesdiagram .s_union {
+    width: 70px;
+    height: 112px
+  }
+
+  main .c__contents .u__sect.c__specialists .u__content .s_detail {
+    max-width: 612px;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0 auto;
+    margin-top: 80px
+  }
+
+  main .c__contents .u__sect.c__specialists .u__content .u__arrow {
+    margin-top: 65px
+  }
+
+  main .c__contents .u__sect.c__advancing {
+    border-radius: 0 0 140px 140px;
+    padding-bottom: 106px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .u__shapelinear:nth-child(1) {
+    width: 1612px;
+    height: 640px;
+    right: -28px;
+    top: 271px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .u__shapelinear:nth-child(1):before {
+    border-radius: 320px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .u__shapelinear:nth-child(2) {
+    width: 1547px;
+    height: 614px;
+    right: calc(100vw - 167px);
+    top: 531px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .u__shapelinear:nth-child(2):before {
+    border-radius: 307px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .u__shapelinear:nth-child(3) {
+    width: 1204px;
+    height: 478px;
+    left: auto;
+    right: 95px;
+    top: 1248px;
+    opacity: 1
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .u__shapelinear:nth-child(4) {
+    display: block;
+    width: 1204px;
+    height: 478px;
+    top: 1535px;
+    left: 377px;
+    opacity: 1
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .u__shapelinear:nth-child(5) {
+    width: 1105px;
+    height: 438px;
+    left: auto;
+    right: 78px;
+    top: 2241px;
+    opacity: 1
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg {
+    width: 350px;
+    height: 175px;
+    border-radius: 88px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg.v_vertical {
+    width: 175px;
+    height: 350px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(6) {
+    top: 1308px;
+    left: auto;
+    right: 17px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(7) {
+    top: 1459px;
+    left: auto;
+    right: -112px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(8) {
+    top: 1969px;
+    left: -52px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(9) {
+    top: 1969px;
+    left: auto;
+    right: 17px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(10) {
+    top: 2169px;
+    left: 26px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(11) {
+    top: 2274px;
+    left: 268px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_image {
+    width: 100%;
+    left: auto;
+    right: -28px;
+    top: 517px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_title div {
+    height: 64px;
+    border: 3px solid #363434;
+    border-radius: 80px;
+    width: 155px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_title div:nth-child(1) {
+    width: 452px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_title div:nth-child(3) {
+    width: 556px;
+    height: 64px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_title div:nth-child(3) span:nth-child(1) {
+    display: none
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_title div:nth-child(3) span:nth-child(2) {
+    display: inline
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_title div span {
+    font-size: 50px;
+    line-height: 50px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_desc {
+    max-width: 611px;
+    margin-top: 62px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_desc p {
+    font-size: 25px;
+    line-height: 32px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_copy {
+    margin-top: 301px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_copy .s_detail {
+    max-width: 612px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_copy .s_detail p {
+    font-size: 18px;
+    line-height: 27px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_copy .s_logo {
+    margin-top: 64px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_copy .s_logo figure:nth-child(1) {
+    width: 175px;
+    margin-right: 130px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_copy .s_logo figure:nth-child(2) {
+    width: 74px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .u__arrow {
+    margin-top: 70px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox {
+    margin-top: 375px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .s_title div {
+    height: 64px;
+    border: 3px solid #363434;
+    border-radius: 80px;
+    width: 199px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .s_title div:nth-child(1) {
+    width: 302px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .s_title div:nth-child(3) {
+    width: 294px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .s_title div:nth-child(3) span:nth-child(1) {
+    display: inline
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .s_title div span {
+    font-size: 50px;
+    line-height: 50px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .s_detail {
+    max-width: 612px;
+    margin-top: 82px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .s_detail p {
+    font-size: 18px;
+    line-height: 27px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .u__arrow {
+    margin-top: 796px
+  }
+
+  main .c__contents .u__sect.c__approach {
+    border-radius: 0 0 140px 140px;
+    padding-bottom: 106px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .u__bg {
+    width: 920px;
+    height: 920px;
+    top: 285px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .u__shapelinear {
+    width: 2304px;
+    height: 915px;
+    top: 335px;
+    left: auto;
+    right: -28px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .u__shapelinear:before {
+    border-radius: 458px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .s_title span {
+    width: 369px;
+    height: 64px;
+    font-size: 50px;
+    border: 3px solid #363434;
+    line-height: 57px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .s_desc {
+    max-width: 612px;
+    margin-top: 62px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .s_desc p {
+    font-size: 25px;
+    line-height: 32px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .s_flexitems {
+    margin-top: 78px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .s_flexitems .s_items .s_item {
+    width: 611px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .s_flexitems .s_items .s_item .s_index {
+    font-size: 70px;
+    line-height: 84px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .s_flexitems .s_items .s_item .s_feature {
+    height: 73px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .s_flexitems .s_items .s_item .s_feature h3 {
+    font-size: 35px;
+    line-height: 42px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .s_flexitems .s_items .s_item article p {
+    font-size: 18px;
+    line-height: 27px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .u__arrow {
+    margin-top: 64px
+  }
+
+  main .c__contents .u__sect.c__services {
+    border-radius: 0 0 140px 140px;
+    padding-bottom: 99px
+  }
+
+  main .c__contents .u__sect.c__services .u__content .u__shapelinear:nth-child(1) {
+    width: 1213px;
+    height: 482px;
+    left: auto;
+    right: 72px;
+    top: 359px
+  }
+
+  main .c__contents .u__sect.c__services .u__content .u__shapelinear:nth-child(2) {
+    display: none
+  }
+
+  main .c__contents .u__sect.c__services .u__content .s_title span {
+    width: 339px;
+    height: 64px;
+    font-size: 50px;
+    border: 3px solid #363434;
+    line-height: 57px
+  }
+
+  main .c__contents .u__sect.c__services .u__content .s_desc {
+    max-width: 612px;
+    margin-top: 58px
+  }
+
+  main .c__contents .u__sect.c__services .u__content .s_desc p {
+    font-size: 25px;
+    line-height: 32px
+  }
+
+  main .c__contents .u__sect.c__services .u__content .s_detail {
+    max-width: 611px;
+    margin-top: 507px
+  }
+
+  main .c__contents .u__sect.c__services .u__content .s_detail p {
+    font-size: 18px;
+    line-height: 27px
+  }
+
+  main .c__contents .u__sect.c__services .u__content .s_imglist {
+    margin-left: calc(50% - 415px);
+    width: 830px;
+    height: 362px;
+    top: 332px
+  }
+
+  main .c__contents .u__sect.c__services .u__content .s_imglist figure {
+    width: 226px;
+    height: 226px
+  }
+
+  main .c__contents .u__sect.c__services .u__content .s_imglist figure:nth-child(1) {
+    left: 0;
+    bottom: 0
+  }
+
+  main .c__contents .u__sect.c__services .u__content .s_imglist figure:nth-child(2) {
+    left: 146px;
+    top: 0
+  }
+
+  main .c__contents .u__sect.c__services .u__content .s_imglist figure:nth-child(3) {
+    left: 302px;
+    bottom: 0
+  }
+
+  main .c__contents .u__sect.c__services .u__content .s_imglist figure:nth-child(4) {
+    left: 449px;
+    top: 0
+  }
+
+  main .c__contents .u__sect.c__services .u__content .s_imglist figure:nth-child(5) {
+    right: 0;
+    bottom: 0
+  }
+
+  main .c__contents .u__sect.c__visitus {
+    padding-bottom: 105px
+  }
+
+  main .c__contents .u__sect.c__visitus .u__content .s_title span {
+    width: 224px;
+    height: 64px;
+    font-size: 50px;
+    border: 3px solid #363434;
+    line-height: 57px
+  }
+
+  main .c__contents .u__sect.c__visitus .u__content .s_imgtxt {
+    margin-top: 61px
+  }
+
+  main .c__contents .u__sect.c__visitus .u__content .s_imgtxt .s_info .s_detail {
+    font-size: 18px;
+    line-height: 27px;
+    max-width: 416px;
+    margin-top: 15px
+  }
+
+  main .c__contents .u__sect.c__visitus .u__content .s_imgtxt .s_info .s_form {
+    margin-top: 313px
+  }
+
+  main .c__contents .u__sect.c__visitus .u__content .s_imgtxt figure {
+    width: 274px;
+    height: 274px;
+    top: 135px
+  }
+}
+
+@media only screen and (min-width:898px) {
+  main .c__contents .u__sect {
+    padding: 40px 40px 130px
+  }
+
+  main .c__contents .u__sect+.u__sect {
+    margin-top: -140px;
+    padding-top: 140px
+  }
+
+  main .c__contents .u__sect.c__futurehealth {
+    padding-bottom: 135px;
+    border-radius: 0 0 140px 140px
+  }
+
+  main .c__contents .u__sect.c__futurehealth .u__content .u__shapelinear {
+    width: 1016px;
+    height: 465px;
+    top: 235px;
+    left: -80px;
+    opacity: 1
+  }
+
+  main .c__contents .u__sect.c__futurehealth .u__content .s_titdesc .s_centerbox .s_title div {
+    height: 80px;
+    border: 3px solid #363434;
+    border-radius: 60px;
+    width: 256px
+  }
+
+  main .c__contents .u__sect.c__futurehealth .u__content .s_titdesc .s_centerbox .s_title div:nth-child(1) {
+    width: 331px
+  }
+
+  main .c__contents .u__sect.c__futurehealth .u__content .s_titdesc .s_centerbox .s_title div span {
+    font-size: 62px;
+    line-height: 74px
+  }
+
+  main .c__contents .u__sect.c__futurehealth .u__content .s_titdesc .s_centerbox .s_desc {
+    width: 600px;
+    margin-top: 61px
+  }
+
+  main .c__contents .u__sect.c__futurehealth .u__content .s_titdesc .s_centerbox .s_desc p {
+    font-size: 33px;
+    line-height: 40px
+  }
+
+  main .c__contents .u__sect.c__futurehealth .u__content .s_detail {
+    font-size: 22px;
+    line-height: 30px;
+    max-width: 776px;
+    margin: 0 auto;
+    margin-top: 42px
+  }
+
+  main .c__contents .u__sect.c__futurehealth .u__content .u__arrow {
+    margin-top: 74px
+  }
+
+  main .c__contents .u__sect.c__specialists {
+    border-radius: 0 0 140px 140px;
+    padding-bottom: 136px
+  }
+
+  main .c__contents .u__sect.c__specialists .u__content {
+    padding-top: 135px
+  }
+
+  main .c__contents .u__sect.c__specialists .u__content .u__shapelinear {
+    width: 1813px;
+    height: 830px;
+    left: auto;
+    right: -40px;
+    top: 167px
+  }
+
+  main .c__contents .u__sect.c__specialists .u__content .u__shapelinear:before {
+    border-radius: 415px
+  }
+
+  main .c__contents .u__sect.c__specialists .u__content .s_title div {
+    height: 80px;
+    border: 3px solid #363434;
+    border-radius: 60px;
+    width: 371px
+  }
+
+  main .c__contents .u__sect.c__specialists .u__content .s_title div:nth-child(1) {
+    width: 714px;
+    height: 80px
+  }
+
+  main .c__contents .u__sect.c__specialists .u__content .s_title div span {
+    font-size: 62px;
+    line-height: 74px
+  }
+
+  main .c__contents .u__sect.c__specialists .u__content .s_programbox {
+    top: 302px
+  }
+
+  main .c__contents .u__sect.c__specialists .u__content .s_programmesdiagram {
+    margin-top: 44px
+  }
+
+  main .c__contents .u__sect.c__specialists .u__content .s_programmesdiagram div h3 {
+    font-size: 62px;
+    line-height: 74px
+  }
+
+  main .c__contents .u__sect.c__specialists .u__content .s_programmesdiagram .s_union {
+    width: 70px;
+    height: 112px
+  }
+
+  main .c__contents .u__sect.c__specialists .u__content .s_detail {
+    max-width: 776px;
+    font-size: 22px;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-top: 107px
+  }
+
+  main .c__contents .u__sect.c__specialists .u__content .u__arrow {
+    margin-top: 75px
+  }
+
+  main .c__contents .u__sect.c__advancing {
+    border-radius: 0 0 140px 140px;
+    padding-bottom: 135px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content {
+    padding-top: 134px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .u__shapelinear:nth-child(1) {
+    right: -40px;
+    top: 350px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .u__shapelinear:nth-child(1):before {
+    border-radius: 320px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .u__shapelinear:nth-child(2) {
+    width: 1630px;
+    height: 647px;
+    right: calc(100vw - 542px);
+    top: 620px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .u__shapelinear:nth-child(2):before {
+    border-radius: 324px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .u__shapelinear:nth-child(3) {
+    width: 1105px;
+    height: 438px;
+    left: auto;
+    right: 121px;
+    top: 1378px;
+    opacity: 1
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .u__shapelinear:nth-child(4) {
+    width: 1105px;
+    height: 438px;
+    top: 1640px;
+    left: 496px;
+    opacity: 1
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .u__shapelinear:nth-child(5) {
+    width: 1105px;
+    height: 438px;
+    left: auto;
+    right: 307px;
+    top: 2443px;
+    opacity: 1
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg {
+    width: 427px;
+    height: 214px;
+    border-radius: 107px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg.v_vertical {
+    width: 214px;
+    height: 427px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(6) {
+    top: 1468px;
+    left: auto;
+    right: 28px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(7) {
+    top: 1655px;
+    left: auto;
+    right: -209px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(8) {
+    top: 2132px;
+    left: -125px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(9) {
+    top: 2108px;
+    left: 252px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(10) {
+    top: 2591px;
+    left: 124px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(11) {
+    top: 2455px;
+    left: auto;
+    right: 0
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_image {
+    width: 596px;
+    left: auto;
+    right: -40px;
+    top: 631px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_title div {
+    height: 80px;
+    border: 3px solid #363434;
+    border-radius: 60px;
+    width: 195px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_title div:nth-child(1) {
+    width: 565px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_title div:nth-child(3) {
+    width: 693px;
+    height: 80px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_title div span {
+    font-size: 62px;
+    line-height: 74px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_desc {
+    max-width: 818px;
+    margin-top: 80px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_desc p {
+    font-size: 33px;
+    line-height: 40px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_copy {
+    margin: 0 auto;
+    margin-top: 264px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 669px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_copy .s_detail {
+    width: 414px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_copy .s_detail p {
+    font-size: 22px;
+    line-height: 30px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_copy .s_logo {
+    margin-top: 42px;
+    height: 149px;
+    width: 255px;
+    padding-left: 80px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_copy .s_logo figure:nth-child(1) {
+    width: 175px;
+    margin: 0 auto
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_copy .s_logo figure:nth-child(2) {
+    width: 74px;
+    margin: 0 auto;
+    margin-top: 47px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .u__arrow {
+    margin-top: 155px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox {
+    margin-top: 275px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .s_title div {
+    height: 80px;
+    border: 3px solid #363434;
+    border-radius: 60px;
+    width: 252px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .s_title div:nth-child(1) {
+    width: 379px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .s_title div:nth-child(3) {
+    width: 369px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .s_title div span {
+    font-size: 62px;
+    line-height: 74px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .s_detail {
+    max-width: 544px;
+    margin-top: 62px;
+    margin-left: 40px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .s_detail p {
+    font-size: 22px;
+    line-height: 30px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .u__arrow {
+    margin-top: 905px
+  }
+
+  main .c__contents .u__sect.c__approach {
+    border-radius: 0 0 140px 140px;
+    padding-bottom: 135px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content {
+    padding-top: 135px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .u__bg {
+    width: 875px;
+    height: 875px;
+    top: 363px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .u__shapelinear {
+    width: 2249px;
+    height: 893px;
+    top: 411px;
+    left: auto;
+    right: 38px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .u__shapelinear:before {
+    border-radius: 458px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .s_title span {
+    width: 463px;
+    height: 80px;
+    font-size: 62px;
+    border: 3px solid #363434;
+    line-height: 74px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .s_desc {
+    max-width: 612px;
+    margin-top: 60px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .s_desc p {
+    font-size: 33px;
+    line-height: 40px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .s_flexitems {
+    margin-top: 150px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .s_flexitems .s_items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: calc(100% + 50px);
+    -webkit-transform: translateX(-25px);
+    -ms-transform: translateX(-25px);
+    transform: translateX(-25px)
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .s_flexitems .s_items .s_item {
+    width: 33.33%;
+    padding: 0 25px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .s_flexitems .s_items .s_item:not(:last-child):after {
+    display: none
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .s_flexitems .s_items .s_item:not(:first-child) {
+    margin-top: 0
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .s_flexitems .s_items .s_item .s_index {
+    font-size: 80px;
+    line-height: 96px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .s_flexitems .s_items .s_item .s_feature {
+    height: 151px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .s_flexitems .s_items .s_item .s_feature h3 {
+    font-size: 39px;
+    line-height: 47px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .s_flexitems .s_items .s_item article p {
+    font-size: 22px;
+    line-height: 30px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .u__arrow {
+    margin-top: 196px
+  }
+
+  main .c__contents .u__sect.c__services {
+    border-radius: 0 0 140px 140px;
+    padding-bottom: 194px
+  }
+
+  main .c__contents .u__sect.c__services .u__content {
+    padding-top: 134px
+  }
+
+  main .c__contents .u__sect.c__services .u__content .u__shapelinear:nth-child(1) {
+    width: 1236px;
+    height: 491px;
+    left: auto;
+    right: 489px;
+    top: 417px;
+    opacity: 1
+  }
+
+  main .c__contents .u__sect.c__services .u__content .u__shapelinear:nth-child(2) {
+    display: block;
+    width: 1096px;
+    height: 435px;
+    left: auto;
+    right: 0;
+    opacity: 1;
+    top: 755px
+  }
+
+  main .c__contents .u__sect.c__services .u__content .s_title span {
+    width: 424px;
+    height: 80px;
+    font-size: 62px;
+    border: 3px solid #363434;
+    line-height: 74px
+  }
+
+  main .c__contents .u__sect.c__services .u__content .s_desc {
+    max-width: 486px;
+    margin-top: 60px
+  }
+
+  main .c__contents .u__sect.c__services .u__content .s_desc p {
+    font-size: 33px;
+    line-height: 40px
+  }
+
+  main .c__contents .u__sect.c__services .u__content .s_detail {
+    max-width: 650px;
+    margin-top: 625px
+  }
+
+  main .c__contents .u__sect.c__services .u__content .s_detail p {
+    font-size: 22px;
+    line-height: 30px
+  }
+
+  main .c__contents .u__sect.c__services .u__content .s_imglist {
+    margin-left: calc(50% - 550px);
+    width: 1100px;
+    height: 475px;
+    top: 395px
+  }
+
+  main .c__contents .u__sect.c__services .u__content .s_imglist figure {
+    width: 300px;
+    height: 300px
+  }
+
+  main .c__contents .u__sect.c__services .u__content .s_imglist figure:nth-child(1) {
+    left: 0;
+    bottom: 0
+  }
+
+  main .c__contents .u__sect.c__services .u__content .s_imglist figure:nth-child(2) {
+    left: 193px;
+    top: 0
+  }
+
+  main .c__contents .u__sect.c__services .u__content .s_imglist figure:nth-child(3) {
+    left: 400px;
+    bottom: 0
+  }
+
+  main .c__contents .u__sect.c__services .u__content .s_imglist figure:nth-child(4) {
+    left: 595px;
+    top: 0
+  }
+
+  main .c__contents .u__sect.c__services .u__content .s_imglist figure:nth-child(5) {
+    right: 0;
+    bottom: 0
+  }
+
+  main .c__contents .u__sect.c__visitus {
+    padding-bottom: 185px
+  }
+
+  main .c__contents .u__sect.c__visitus .u__content {
+    padding-top: 135px
+  }
+
+  main .c__contents .u__sect.c__visitus .u__content .s_title span {
+    width: 277px;
+    height: 80px;
+    font-size: 62px;
+    border: 3px solid #363434;
+    line-height: 74px
+  }
+
+  main .c__contents .u__sect.c__visitus .u__content .s_imgtxt {
+    margin-top: 70px
+  }
+
+  main .c__contents .u__sect.c__visitus .u__content .s_imgtxt .s_info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: calc(100% + 90px);
+    max-width: calc(100% + 90px);
+    -webkit-transform: translateX(-45px);
+    -ms-transform: translateX(-45px);
+    transform: translateX(-45px)
+  }
+
+  main .c__contents .u__sect.c__visitus .u__content .s_imgtxt .s_info .s_titdetail {
+    width: 400px;
+    padding: 0 45px;
+    text-align: left
+  }
+
+  main .c__contents .u__sect.c__visitus .u__content .s_imgtxt .s_info .s_infotit {
+    font-size: 33px;
+    line-height: 40px;
+    text-align: left
+  }
+
+  main .c__contents .u__sect.c__visitus .u__content .s_imgtxt .s_info .s_detail {
+    font-size: 22px;
+    line-height: 30px;
+    max-width: 100%;
+    margin-top: 29px;
+    text-align: left
+  }
+
+  main .c__contents .u__sect.c__visitus .u__content .s_imgtxt .s_info .s_form {
+    margin-top: 33px;
+    width: 509px;
+    padding: 0 45px
+  }
+
+  main .c__contents .u__sect.c__visitus .u__content .s_imgtxt .s_info .s_form .s_ctas .u__btncta {
+    margin-bottom: 0
+  }
+
+  main .c__contents .u__sect.c__visitus .u__content .s_imgtxt .s_info .s_form .s_ctas .u__btncta a {
+    line-height: 58px
+  }
+
+  main .c__contents .u__sect.c__visitus .u__content .s_imgtxt figure {
+    width: 309px;
+    height: 309px;
+    top: 198px;
+    left: 0;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0)
+  }
+}
+
+@media only screen and (min-width:1000px) {
+  main .c__contents .u__sect.c__futurehealth .u__content .u__img {
+    max-width: 1010px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%)
+  }
+
+  main .c__contents .u__sect.c__futurehealth .u__content .s_titdesc img {
+    max-width: 1010px;
+    margin: 0 auto
+  }
+
+  main .c__contents .u__sect.c__futurehealth .u__content .s_titdesc .s_centerbox .s_desc {
+    margin-top: 78px
+  }
+
+  main .c__contents .u__sect.c__futurehealth .u__content .s_titdesc .s_centerbox .s_desc p {
+    font-family: 'Roobert Regular'
+  }
+
+  main .c__contents .u__sect.c__specialists .u__content .s_programbox {
+    top: 302px
+  }
+
+  main .c__contents .u__sect.c__specialists .u__content .s_programmesdiagram {
+    margin-top: 42px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .u__shapelinear:nth-child(2) {
+    width: 1547px;
+    height: 614px;
+    right: calc(100vw - 558px);
+    top: 616px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .u__shapelinear:nth-child(2):before {
+    border-radius: 307px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .u__shapelinear:nth-child(3) {
+    left: auto;
+    right: 242px;
+    top: 1351px;
+    opacity: 1
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .u__shapelinear:nth-child(4) {
+    width: 1105px;
+    height: 438px;
+    top: 1613px;
+    left: 537px;
+    opacity: 1
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .u__shapelinear:nth-child(5) {
+    width: 1105px;
+    height: 438px;
+    left: auto;
+    right: 282px;
+    top: 2429px;
+    opacity: 1
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg {
+    width: 427px;
+    height: 214px;
+    border-radius: 107px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg.v_vertical {
+    width: 214px;
+    height: 427px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(6) {
+    top: 1468px;
+    left: auto;
+    right: 28px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(7) {
+    top: 1655px;
+    left: auto;
+    right: -209px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(8) {
+    top: 2132px;
+    left: -125px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(9) {
+    top: 2108px;
+    left: 252px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(10) {
+    top: 2591px;
+    left: 124px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(11) {
+    top: 2455px;
+    left: auto;
+    right: 0
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_image {
+    width: 596px;
+    left: auto;
+    right: 51px;
+    top: 631px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_copy {
+    margin-top: 282px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 775px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_copy .s_detail {
+    width: 520px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_copy .s_detail p {
+    font-size: 22px;
+    line-height: 30px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_copy .s_logo {
+    margin-top: 11px;
+    height: 149px;
+    width: 255px;
+    padding-left: 80px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .u__arrow {
+    margin-top: 171px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox {
+    margin-top: 275px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .s_detail {
+    max-width: 534px;
+    margin-top: 62px;
+    margin-left: 37px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .s_detail p {
+    font-size: 22px;
+    line-height: 30px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .u__arrow {
+    margin-top: 901px
+  }
+
+  main .c__contents .u__sect.c__approach {
+    padding-bottom: 136px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .u__bg {
+    top: 370px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .u__shapelinear {
+    top: 418px;
+    left: auto;
+    right: 52px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .u__shapelinear:before {
+    border-radius: 458px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .u__arrow {
+    margin-top: 234px
+  }
+
+  main .c__contents .u__sect.c__services .u__content .u__shapelinear:nth-child(1) {
+    left: auto;
+    right: 344px;
+    top: 442px;
+    opacity: 1
+  }
+
+  main .c__contents .u__sect.c__services .u__content .u__shapelinear:nth-child(2) {
+    display: block;
+    width: 1107px;
+    height: 440px;
+    left: auto;
+    right: -40px;
+    opacity: 1;
+    top: 777px
+  }
+
+  main .c__contents .u__sect.c__services .u__content .s_detail {
+    max-width: 650px;
+    margin-top: 647px
+  }
+
+  main .c__contents .u__sect.c__services .u__content .s_imglist {
+    margin-left: calc(50% - 610px);
+    width: 1220px;
+    height: 496px;
+    top: 395px
+  }
+
+  main .c__contents .u__sect.c__services .u__content .s_imglist figure {
+    width: 322px;
+    height: 322px
+  }
+
+  main .c__contents .u__sect.c__services .u__content .s_imglist figure:nth-child(1) {
+    left: 0;
+    bottom: 0
+  }
+
+  main .c__contents .u__sect.c__services .u__content .s_imglist figure:nth-child(2) {
+    left: 233px;
+    top: 0
+  }
+
+  main .c__contents .u__sect.c__services .u__content .s_imglist figure:nth-child(3) {
+    left: 451px;
+    bottom: 0
+  }
+
+  main .c__contents .u__sect.c__services .u__content .s_imglist figure:nth-child(4) {
+    left: 675px;
+    top: 0
+  }
+
+  main .c__contents .u__sect.c__services .u__content .s_imglist figure:nth-child(5) {
+    right: 0;
+    bottom: 0
+  }
+
+  main .c__contents .u__sect.c__visitus {
+    padding-bottom: 184px
+  }
+
+  main .c__contents .u__sect.c__visitus .u__content .s_imgtxt {
+    margin-top: 71px
+  }
+
+  main .c__contents .u__sect.c__visitus .u__content .s_imgtxt .s_info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: calc(100% + 90px);
+    max-width: calc(100% + 90px);
+    -webkit-transform: translateX(-45px);
+    -ms-transform: translateX(-45px);
+    transform: translateX(-45px)
+  }
+
+  main .c__contents .u__sect.c__visitus .u__content .s_imgtxt .s_info .s_titdetail {
+    width: 402px
+  }
+
+  main .c__contents .u__sect.c__visitus .u__content .s_imgtxt .s_info .s_detail {
+    margin-top: 30px
+  }
+
+  main .c__contents .u__sect.c__visitus .u__content .s_imgtxt .s_info .s_form {
+    margin-top: 32px;
+    width: 611px;
+    padding: 0 45px
+  }
+
+  main .c__contents .u__sect.c__visitus .u__content .s_imgtxt figure {
+    width: 309px;
+    height: 309px;
+    top: 198px;
+    left: 0;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0)
+  }
+}
+
+@media only screen and (min-width:1440px) {
+  main .c__contents .u__sect {
+    padding: 40px 60px 130px
+  }
+
+  main .c__contents .u__sect.c__futurehealth .u__content .u__shapelinear {
+    width: 1155px;
+    height: 458px;
+    left: 42px;
+    top: 364px
+  }
+
+  main .c__contents .u__sect.c__futurehealth .u__content .s_titdesc .s_centerbox .s_desc {
+    margin-top: 128px
+  }
+
+  main .c__contents .u__sect.c__specialists .u__content .u__shapelinear {
+    width: 2026px;
+    height: 804px;
+    right: -60px;
+    top: 167px
+  }
+
+  main .c__contents .u__sect.c__specialists .u__content .s_detail {
+    margin-top: 109px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .u__shapelinear:nth-child(1) {
+    top: 338px;
+    right: -206px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .u__shapelinear:nth-child(2) {
+    width: 1612px;
+    height: 640px;
+    right: calc(100vw - 808px);
+    top: 693px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .u__shapelinear:nth-child(2):before {
+    border-radius: 320px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .u__shapelinear:nth-child(3) {
+    left: auto;
+    right: 426px;
+    top: 1416px;
+    opacity: 1
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .u__shapelinear:nth-child(4) {
+    width: 1105px;
+    height: 438px;
+    top: 1667px;
+    left: 706px;
+    opacity: 1
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .u__shapelinear:nth-child(5) {
+    width: 1105px;
+    height: 438px;
+    left: auto;
+    right: 651px;
+    top: 2270px;
+    opacity: 1
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg {
+    width: 427px;
+    height: 214px;
+    border-radius: 107px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg.v_vertical {
+    width: 214px;
+    height: 427px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(6) {
+    top: 1506px;
+    left: auto;
+    right: 283px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(7) {
+    top: 1680px;
+    left: auto;
+    right: 0
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(8) {
+    top: 1942px;
+    left: 0
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(9) {
+    top: 1918px;
+    left: 376px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(10) {
+    top: 2401px;
+    left: 271px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(11) {
+    top: 2268px;
+    left: auto;
+    right: 240px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_image {
+    width: 810px;
+    left: auto;
+    right: 0;
+    top: 632px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_copy {
+    margin-top: 347px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .u__arrow {
+    margin-top: 171px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox {
+    margin-top: 283px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .s_detail {
+    max-width: 530px;
+    margin-top: 187px;
+    margin-left: 708px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .s_detail p {
+    font-size: 22px;
+    line-height: 30px
+  }
+
+  main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .u__arrow {
+    margin-top: 585px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .u__bg {
+    top: 278px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .u__shapelinear {
+    width: 2056px;
+    height: 816px;
+    top: 403px;
+    left: auto;
+    right: -232px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .u__shapelinear:before {
+    border-radius: 408px
+  }
+
+  main .c__contents .u__sect.c__approach .u__content .u__arrow {
+    margin-top: 270px
+  }
+
+  main .c__contents .u__sect.c__services .u__content .u__shapelinear:nth-child(1) {
+    width: 1348px;
+    height: 535px;
+    left: auto;
+    right: 544px;
+    top: 446px;
+    opacity: 1
+  }
+
+  main .c__contents .u__sect.c__services .u__content .u__shapelinear:nth-child(2) {
+    display: block;
+    width: 1201px;
+    height: 477px;
+    opacity: 1;
+    top: 748px;
+    left: 0
+  }
+
+  main .c__contents .u__sect.c__visitus {
+    padding-bottom: 135px
+  }
+
+  main .c__contents .u__sect.c__visitus .u__content .s_imgtxt {
+    margin-top: 71px
+  }
+
+  main .c__contents .u__sect.c__visitus .u__content .s_imgtxt .s_info {
+    display: block;
+    width: 785px;
+    max-width: 785px;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    margin-left: 0;
+    padding-right: 0
+  }
+
+  main .c__contents .u__sect.c__visitus .u__content .s_imgtxt .s_info .s_titdetail {
+    width: 100%;
+    padding: 0
+  }
+
+  main .c__contents .u__sect.c__visitus .u__content .s_imgtxt .s_info .s_detail {
+    width: 100%;
+    margin-top: 28px
+  }
+
+  main .c__contents .u__sect.c__visitus .u__content .s_imgtxt .s_info .s_form {
+    margin-top: 38px;
+    padding: 0;
+    width: 785px
+  }
+
+  main .c__contents .u__sect.c__visitus .u__content .s_imgtxt figure {
+    position: absolute;
+    right: 0;
+    left: auto;
+    top: 9px;
+    width: 486px;
+    height: 486px
+  }
+}
