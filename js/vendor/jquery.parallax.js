@@ -16,7 +16,7 @@
 
 		$this.each(function(){
 		  firstTop = $this.offset().top;
-			var _transform = $this.css("transform"); 
+			var _transform = $this.css("transform");
 			if(_transform=='none'){
 				_top = 0;
 			}

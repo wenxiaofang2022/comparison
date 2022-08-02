@@ -342,7 +342,8 @@ main .c__contents .u__sect.c__advancing .u__content .s_absimg figure {
 main .c__contents .u__sect.c__advancing .u__content .s_absimg figure a {
   width: 100%;
   height: 100%;
-  display: block
+  display: block;
+  cursor: pointer;
 }
 
 main .c__contents .u__sect.c__advancing .u__content .s_absimg figure a img {
@@ -379,9 +380,14 @@ main .c__contents .u__sect.c__advancing .u__content .s_absimg figure a:after{
   transform: translate(-50%, 50%);
   background: url(../img/icon-plus.svg) center center no-repeat #EE907B;
   background-size: 18px;
+  transition: transform 0.5s;
   /* width: 34px;
   height: 34px;
   background-size: 24px; */
+}
+
+main .c__contents .u__sect.c__advancing .u__content .s_absimg figure a:hover:after{
+  transform: translate(-50%, 50%) scale(1.2);
 }
 
 main .c__contents .u__sect.c__advancing .u__content .s_absimg.v_vertical figure a img {
@@ -389,37 +395,43 @@ main .c__contents .u__sect.c__advancing .u__content .s_absimg.v_vertical figure 
   height: 100%
 }
 
-main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(6) {
+main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(7) {
   top: 1019px;
   left: auto;
-  right: 45px
+  right: 45px;
+  z-index: 1;
 }
 
-main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(7) {
+main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(6) {
   top: 1136px;
   left: auto;
-  right: -73px
+  right: -73px;
+  z-index: 1;
 }
 
 main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(8) {
   top: 1701px;
-  left: -75px
+  left: -75px;
+  z-index: 1;
 }
 
 main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(9) {
   top: 1701px;
   left: auto;
-  right: 0
+  right: 0;
+  z-index: 2;
 }
 
 main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(10) {
   top: 1864px;
-  left: -75px
+  left: -75px;
+  z-index: 1;
 }
 
 main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(11) {
   top: 1964px;
-  left: 117px
+  left: 117px;
+  z-index: 1;
 }
 
 main .c__contents .u__sect.c__advancing .u__content .s_title {
@@ -528,7 +540,9 @@ main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .s_title d
   margin-top: 7px;
   width: 147px;
   border: 1.8px solid #363434;
-  border-radius: 60px
+  border-radius: 60px;
+  position: relative;
+  z-index: 3;
 }
 
 main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .s_title div:nth-child(1) {
@@ -543,7 +557,7 @@ main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .s_title d
 main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .s_title div span {
   font-family: 'Roobert Light';
   font-size: 35px;
-  line-height: 35px
+  line-height: 42px
 }
 
 main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .s_detail {
@@ -555,7 +569,9 @@ main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .s_detail 
 
 main .c__contents .u__sect.c__advancing .u__content .s_healthcaresbox .s_detail p {
   font-size: 14px;
-  line-height: 20px
+  line-height: 20px;
+  position: relative;
+  z-index: 3;
 }
 
 main .c__contents .u__sect.c__approach {
@@ -1088,13 +1104,13 @@ main .c__contents .u__sect.c__visitus .u__content .s_imgtxt figure {
     height: 350px
   }
 
-  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(6) {
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(7) {
     top: 1308px;
     left: auto;
     right: 17px
   }
 
-  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(7) {
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(6) {
     top: 1459px;
     left: auto;
     right: -112px
@@ -1629,13 +1645,13 @@ main .c__contents .u__sect.c__visitus .u__content .s_imgtxt figure {
     height: 427px
   }
 
-  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(6) {
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(7) {
     top: 1468px;
     left: auto;
     right: 28px
   }
 
-  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(7) {
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(6) {
     top: 1655px;
     left: auto;
     right: -209px
@@ -2132,13 +2148,13 @@ main .c__contents .u__sect.c__visitus .u__content .s_imgtxt figure {
     height: 427px
   }
 
-  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(6) {
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(7) {
     top: 1468px;
     left: auto;
     right: 28px
   }
 
-  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(7) {
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(6) {
     top: 1655px;
     left: auto;
     right: -209px
@@ -2432,13 +2448,13 @@ main .c__contents .u__sect.c__visitus .u__content .s_imgtxt figure {
     height: 427px
   }
 
-  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(6) {
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(7) {
     top: 1506px;
     left: auto;
     right: 283px
   }
 
-  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(7) {
+  main .c__contents .u__sect.c__advancing .u__content .s_absimg:nth-child(6) {
     top: 1680px;
     left: auto;
     right: 0

@@ -25,42 +25,42 @@
 <link rel="stylesheet" type="text/css" href="./css/main2.css?v=1658834117164" />
 <link rel="stylesheet" type="text/css" href="./css/homepage.css?v=1658834117164" />
 <title>early-title</title>
-<script src="./js/vendor/jquery-3.6.0.min.js?v=1658834117164" type="text/javascript"></script>
-<script src="./js/vendor/modernizr-custom.js?v=1658834117164" type="text/javascript"></script>
-<script src="./js/vendor/jquery.parallax.js?v=1658834117164"></script>
+<!-- <script src="./js/vendor/jquery-3.6.0.min.js?v=1658834117164" type="text/javascript"></script> -->
+<!-- <script src="./js/vendor/modernizr-custom.js?v=1658834117164" type="text/javascript"></script>
+<script src="./js/vendor/jquery.parallax.js?v=1658834117164"></script> -->
 </head>
-<script type="text/javascript">
-    $(document).ready(function () {
-        //0.1 0.2 0.3 表示速度，可自行修改
-        //parallax_target1 2 3 表示作用元素
-        //c__futurehealth 表示作用元素的父元素
-        $('.parallax_target1').parallax(0.1,'.c__futurehealth');
-        $('.parallax_target2').parallax(0.2,'.c__futurehealth');
-
-        $('.parallax_target3').parallax(0.3,'.c__specialists');
-        $('.parallax_target4').parallax(0.1,'.c__specialists');
-
-        $('.parallax_target5').parallax(0.2,'.c__advancing');
-        $('.parallax_target6').parallax(0.3,'.c__advancing');
-        $('.parallax_target7').parallax(0.1,'.c__advancing');
-        $('.parallax_target8').parallax(0.2,'.c__advancing');
-        $('.parallax_target9').parallax(0.3,'.c__advancing');
-        $('.parallax_target10').parallax(0.1,'.c__advancing');
-        $('.parallax_target11').parallax(0.2,'.c__advancing');
-        $('.parallax_target12').parallax(0.3,'.c__advancing');
-        $('.parallax_target13').parallax(0.1,'.c__advancing');
-        $('.parallax_target14').parallax(0.2,'.c__advancing');
-        $('.parallax_target15').parallax(0.3,'.c__advancing');
-        $('.parallax_target16').parallax(0.1,'.c__advancing');
-
-        $('.parallax_target17').parallax(0.2,'.c__approach');
-
-        $('.parallax_target18').parallax(0.3,'.c__services');
-        $('.parallax_target19').parallax(0.1,'.c__services');
-        $('.parallax_target20').parallax(0.2,'.c__services');
-    })
-</script>
-
+<style type="text/css">
+    main .c__contents .u__sect.c__specialists .u__content .s_title div:nth-child(1){
+        text-align:left;
+        padding-left: 25px;
+    }
+    main .c__contents .u__sect.c__advancing .u__content .s_title div:nth-child(3){
+        text-align: left;
+        padding-left: 25px;
+    }
+    .c__stickyicon img{
+        padding: 0px;
+    }
+    main .c__contents .u__sect.c__futurehealth{
+        padding-top: 32px;
+    }
+    main .c__contents .u__sect.c__specialists .u__content .s_title div:nth-child(1){
+        margin-left:6px;
+    }
+    main .c__contents .u__sect.c__specialists .u__content .s_title div:nth-child(2){
+        margin-right: 31px;
+    }
+    @media only screen and (min-width: 668px){
+        main .c__contents .u__sect.c__specialists .u__content .s_title div:nth-child(1){
+            text-align:center;
+            padding-left: 0px;
+        }
+        main .c__contents .u__sect.c__advancing .u__content .s_title div:nth-child(3){
+            text-align: center;
+            padding-left: 0px;
+        }
+    }
+</style>
 <body>
     <header id="header" role="banner">
         <section class="c__header">
@@ -192,34 +192,34 @@
                                   <div class="u__shapelinear half_transparent v_shape parallax_target7"></div>
                                   <div class="u__shapelinear half_transparent v_flip v_shape parallax_target8"></div>
                                   <div class="u__shapelinear half_transparent v_shape parallax_target9"></div>
-                                  <div class="s_absimg parallax_target10">
-                                      <figure>
-                                          <a href="#"><img src="./img/healthcare-1.jpg"></a>
-                                      </figure>
-                                  </div>
                                   <div class="s_absimg parallax_target11">
                                       <figure>
-                                          <a href="#"><img src="./img/healthcare-2.jpg"></a>
+                                          <a href="#" data-index="2"><img src="./img/healthcare-2.jpg"></a>
                                       </figure>
                                   </div>
+                                  <div class="s_absimg parallax_target10">
+                                    <figure>
+                                        <a href="#" data-index="1"><img src="./img/healthcare-1.jpg"></a>
+                                    </figure>
+                                </div>
                                   <div class="s_absimg parallax_target12">
                                       <figure>
-                                          <a href="#"><img src="./img/healthcare-3.jpg"></a>
+                                          <a href="#" data-index="3"><img src="./img/healthcare-3.jpg"></a>
                                       </figure>
                                   </div>
                                   <div class="s_absimg v_vertical parallax_target13">
                                       <figure>
-                                          <a href="#"><img src="./img/healthcare-4.jpg"></a>
+                                          <a href="#" data-index="4"><img src="./img/healthcare-4.jpg"></a>
                                       </figure>
                                   </div>
                                   <div class="s_absimg parallax_target14">
                                       <figure>
-                                          <a href="#"><img src="./img/healthcare-5.jpg"></a>
+                                          <a href="#" data-index="5"><img src="./img/healthcare-5.jpg"></a>
                                       </figure>
                                   </div>
                                   <div class="s_absimg v_vertical parallax_target15">
                                       <figure>
-                                          <a href="#"><img src="./img/healthcare-6.jpg"></a>
+                                          <a href="#" data-index="6"><img src="./img/healthcare-6.jpg"></a>
                                       </figure>
                                   </div>
                                 </div>
@@ -500,7 +500,103 @@
             </figure>
         </section>
     </footer>
+    <section class="c__notification v_formmessage hidden">
+        <article>
+            <p>Thank you! We will be in touch with latest <strong>early</strong> events.</p>
+        </article>
+        <figure>
+            <a href="#" class="s_close">
+                <img src="img/icon-cross.svg">  
+            </a>
+        </figure>
+    </section>
+
+    <section class="c__lightbox">
+        <article>
+            <a href="#" class="s_close js_close"></a>
+            <article class="swiper s_swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <figure>
+                            <img src="img/lightbox-healthcare-1.jpg">
+                        </figure>
+                    </div>
+                    <div class="swiper-slide">
+                        <figure>
+                            <img src="img/lightbox-healthcare-2.jpg">
+                        </figure>
+                    </div>
+                    <div class="swiper-slide">
+                        <figure>
+                            <img src="img/lightbox-healthcare-3.jpg">
+                        </figure>
+                    </div>
+                    <div class="swiper-slide v_portrait">
+                        <figure>
+                            <img src="img/lightbox-healthcare-4.jpg">
+                        </figure>
+                    </div>
+                    <div class="swiper-slide">
+                        <figure>
+                            <img src="img/lightbox-healthcare-5.jpg">
+                        </figure>
+                    </div>
+                    <div class="swiper-slide">
+                        <figure>
+                            <img src="img/lightbox-healthcare-6.jpg">
+                        </figure>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </article>
+        </article>
+    </section>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <script src="js/vendor/swiper-bundle.min.js"></script>
+    <script src="./js/vendor/modernizr-custom.js?v=1658834117164" type="text/javascript"></script>
+    <script src="./js/vendor/jquery.parallax.js?v=1658834117164"></script>
     <script type="text/javascript">
+        $(document).ready(function () {
+            //0.1 0.2 0.3 表示速度，可自行修改
+            //parallax_target1 2 3 表示作用元素
+            //c__futurehealth 表示作用元素的参考元素
+            $('.parallax_target1').parallax(0.1,'.c__futurehealth');
+            $('.parallax_target2').parallax(0.2,'.c__futurehealth');
+
+            $('.parallax_target3').parallax(0.3,'.c__specialists');
+            $('.parallax_target4').parallax(0.1,'.c__specialists');
+
+            $('.parallax_target5').parallax(0.2,'.c__advancing');
+            $('.parallax_target6').parallax(0.3,'.c__advancing');
+            $('.parallax_target16').parallax(0.1,'.c__advancing');
+
+            $('.parallax_target7').parallax(0.1,'.s_copy');
+            $('.parallax_target8').parallax(0.2,'.s_copy');
+            $('.parallax_target9').parallax(0.3,'.s_copy');
+            $('.parallax_target11').parallax(0.1,'.s_copy');
+            $('.parallax_target10').parallax(0.2,'.s_copy');
+            $('.parallax_target12').parallax(0.3,'.s_copy');
+            $('.parallax_target13').parallax(0.1,'.s_copy');
+            $('.parallax_target14').parallax(0.2,'.s_copy');
+            $('.parallax_target15').parallax(0.3,'.s_copy');
+
+            $('.parallax_target17').parallax(0.2,'.c__approach');
+
+            $('.parallax_target18').parallax(0.3,'.c__services');
+            $('.parallax_target19').parallax(0.1,'.c__services');
+            $('.parallax_target20').parallax(0.1,'.c__services');
+        })
+        var swiper = new Swiper('.s_swiper', {
+            loop: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
         $(function() {
                 var emailFilter = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
@@ -620,7 +716,7 @@
                     }
                 }
 
-                $('.c__healthcare .s_image a').on('click', function(e) {
+                $('.c__advancing .s_absimg a').on('click', function(e) {
                     e.preventDefault();
 
                     var $this = $(this);
