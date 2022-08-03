@@ -885,7 +885,10 @@ main.p__subpages .c__contents .c__subpageintro .s_bigtitle {
     text-align: center;
     margin-bottom: 32px;
     margin-top:-6px;
-    font-family:'Roobert SemiBold';
+    font-family: "Dosis";
+    text-transform: uppercase;
+    font-weight: 600;
+    /* font-family:'Roobert SemiBold'; */
 }
 main.p__subpages.s_controlreverse .c__contents .c__subpageintro .s_bigtitle {
     margin-bottom: 36px;
@@ -1103,6 +1106,7 @@ main.p__subpages .c__contents .c__subpageintro .c__optimise .s_optimiselist .s_o
     width: 224px;
     height: 56px;
     margin: 0 auto;
+    display: none;
 }
 main.p__subpages .c__contents .c__subpageintro .c__optimise .s_optimiselist .s_optimiseitem .u__btncta a {
     height: 56px;
